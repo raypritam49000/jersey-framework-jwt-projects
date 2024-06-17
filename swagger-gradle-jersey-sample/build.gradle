@@ -1,0 +1,77 @@
+task wrapper(type: Wrapper) {
+    gradleVersion = '3.3'
+}
+
+apply plugin: 'java'
+apply plugin: 'jetty'
+
+group = 'org.yash.java'
+version = '1.0-SNAPSHOT'
+
+description = """messenger"""
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+tasks.withType(JavaCompile) {
+	options.encoding = 'UTF-8'
+}
+
+def jersey_version = '2.25.1'
+def javax_ws_rs_api = '2.0'
+def jbcrypt_version = '0.4'
+def lombok_version = '1.18.24'
+def model_mapper_version = '3.2.0'
+def javax_activation_version = '1.1.1'
+def mime_pull_version = '1.10.0'
+def jackson_version = '2.17.1'
+def jwt_version = '0.9.1'
+def hibernate_version = '5.6.15.Final'
+def mysql_version = '8.4.0';
+def servlet_version = '3.1.0'
+def slf4j_version = '1.7.21'
+def junit_version = '3.8.1'
+def guava_version = '33.2.1-jre'
+def commons_lang3_version = '3.12.0'
+def log4j_version = '2.8.2'
+def jakarta_xml_bind_version = '4.0.2'
+def gson_version = '2.11.0'
+def jaxb_runtime_version = '2.3.2'
+def java_faker_version = '0.12'
+
+repositories {
+    mavenCentral()
+}
+
+
+
+dependencies {
+    compile group: 'org.glassfish.jersey.containers', name: 'jersey-container-servlet-core', version:"${jersey_version}"
+    compile group: 'org.glassfish.jersey.media', name: 'jersey-media-json-jackson', version:"${jersey_version}"
+	compile group: 'javax.ws.rs', name: 'javax.ws.rs-api', version: "${javax_ws_rs_api}"
+    compileOnly group: 'org.projectlombok', name: 'lombok', version: "${lombok_version}"
+    compile group: 'org.modelmapper', name: 'modelmapper', version: "${model_mapper_version}"
+    compile group: 'javax.activation', name: 'activation', version: "${javax_activation_version}"
+    compile group: 'org.glassfish.jersey.core', name: 'jersey-common', version:"${jersey_version}"
+    compile group: 'org.jvnet.mimepull', name: 'mimepull', version: "${mime_pull_version}"
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: "${jackson_version}"
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-annotations', version: "${jackson_version}"
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: "${jackson_version}"
+    compile group: 'org.mindrot', name: 'jbcrypt', version: "${jbcrypt_version}"
+    compile group: 'io.jsonwebtoken', name: 'jjwt', version: "${jwt_version}"
+    compile group: 'com.mysql', name: 'mysql-connector-j', version: "${mysql_version}"
+    compile group: 'javax.servlet', name: 'javax.servlet-api', version: "${servlet_version}"
+    compile group: 'org.slf4j', name: 'slf4j-log4j12', version: "${slf4j_version}"
+    compile group: 'jakarta.xml.bind', name: 'jakarta.xml.bind-api', version: "${jakarta_xml_bind_version}"
+    compile group: 'org.glassfish.jaxb', name: 'jaxb-runtime', version: "${jaxb_runtime_version}"
+    compile group: 'com.google.code.gson', name: 'gson', version: "${gson_version}"
+    compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: "${log4j_version}"
+    compile group: 'org.apache.logging.log4j', name: 'log4j-api', version: "${log4j_version}"
+    compile group: 'org.apache.logging.log4j', name: 'log4j-slf4j-impl', version: "${log4j_version}"
+    compile group: 'org.apache.commons', name: 'commons-lang3', version: "${commons_lang3_version}"
+    compile group: 'com.google.guava', name: 'guava', version: "${guava_version}"
+    compile group: 'junit', name: 'junit', version: "${junit_version}"
+    compile group: 'com.github.javafaker', name: 'javafaker', version: "${java_faker_version}"
+    compile group: 'org.hibernate', name: 'hibernate-core', version: "${hibernate_version}"
+    compile group: 'org.hibernate', name: 'hibernate-c3p0', version: "${hibernate_version}"
+}

@@ -1,0 +1,1761 @@
+2024-06-07 01:09:34 INFO  log:170 - Logging initialized @1326ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-07 01:09:35 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 11.0.18+9-LTS-195
+2024-06-07 01:09:38 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@62d0ac62{/,null,AVAILABLE}
+2024-06-07 01:09:38 INFO  AbstractConnector:331 - Started ServerConnector@3e2e18f2{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-07 01:09:38 INFO  Server:415 - Started @4657ms
+2024-06-07 01:09:49 INFO  HowdyController:20 - --------------- Hello Howdy --------------------
+2024-06-07 01:10:23 INFO  log:170 - Logging initialized @1287ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-07 01:10:24 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 11.0.18+9-LTS-195
+2024-06-07 01:10:26 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@62d0ac62{/,null,AVAILABLE}
+2024-06-07 01:10:26 INFO  AbstractConnector:331 - Started ServerConnector@3e2e18f2{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-07 01:10:26 INFO  Server:415 - Started @4442ms
+2024-06-07 01:10:33 INFO  HowdyController:20 - --------------- Hello Howdy --------------------
+2024-06-07 01:10:50 INFO  HowdyController:20 - --------------- Hello Howdy --------------------
+2024-06-07 01:12:37 INFO  log:170 - Logging initialized @2073ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-07 01:12:38 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 11.0.18+9-LTS-195
+2024-06-07 01:12:41 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@62d0ac62{/,null,AVAILABLE}
+2024-06-07 01:12:41 INFO  AbstractConnector:331 - Started ServerConnector@3e2e18f2{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-07 01:12:41 INFO  Server:415 - Started @6191ms
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2024-06-07 01:13:09 INFO  log:170 - Logging initialized @1650ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-07 01:13:09 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 11.0.18+9-LTS-195
+2024-06-07 01:13:12 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@6826c41e{/,null,AVAILABLE}
+2024-06-07 01:13:12 INFO  AbstractConnector:331 - Started ServerConnector@63021689{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-07 01:13:12 INFO  Server:415 - Started @4555ms
+2024-06-07 01:13:24 INFO  HowdyController:20 - --------------- Hello Howdy --------------------
+2024-06-07 01:17:24 INFO  log:170 - Logging initialized @1550ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-07 01:17:24 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 11.0.18+9-LTS-195
+2024-06-07 01:17:27 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@304a9d7b{/,null,AVAILABLE}
+2024-06-07 01:17:27 INFO  AbstractConnector:331 - Started ServerConnector@63021689{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-07 01:17:27 INFO  Server:415 - Started @5101ms
+2024-06-07 01:17:29 INFO  HowdyController:25 - --------------- Hello Howdy --------------------null
+2024-06-07 01:19:08 INFO  log:170 - Logging initialized @1379ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-07 01:19:08 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 11.0.18+9-LTS-195
+2024-06-07 01:19:10 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@304a9d7b{/,null,AVAILABLE}
+2024-06-07 01:19:11 INFO  AbstractConnector:331 - Started ServerConnector@63021689{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-07 01:19:11 INFO  Server:415 - Started @4096ms
+2024-06-07 01:19:16 WARN  HttpChannel:689 - /howdy
+javax.servlet.ServletException: A MultiException has 1 exceptions.  They are:
+1. java.lang.NoSuchMethodException: Could not find a suitable constructor in com.jersey.rest.api.controller.HowdyController class.
+
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:432)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:370)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:389)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:342)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:229)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:550)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1434)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:501)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1349)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:400)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:645)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:392)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: A MultiException has 1 exceptions.  They are:
+1. java.lang.NoSuchMethodException: Could not find a suitable constructor in com.jersey.rest.api.controller.HowdyController class.
+
+	at org.jvnet.hk2.internal.Collector.throwIfErrors(Collector.java:89)
+	at org.jvnet.hk2.internal.Utilities.justCreate(Utilities.java:1068)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.create(ServiceLocatorImpl.java:978)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.createAndInitialize(ServiceLocatorImpl.java:1082)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.createAndInitialize(ServiceLocatorImpl.java:1074)
+	at org.glassfish.jersey.inject.hk2.AbstractHk2InjectionManager.createAndInitialize(AbstractHk2InjectionManager.java:213)
+	at org.glassfish.jersey.inject.hk2.ImmediateHk2InjectionManager.createAndInitialize(ImmediateHk2InjectionManager.java:54)
+	at org.glassfish.jersey.internal.inject.Injections.getOrCreate(Injections.java:130)
+	at org.glassfish.jersey.server.model.MethodHandler$ClassBasedMethodHandler.getInstance(MethodHandler.java:284)
+	at org.glassfish.jersey.server.internal.routing.PushMethodHandlerRouter.apply(PushMethodHandlerRouter.java:75)
+	at org.glassfish.jersey.server.internal.routing.RoutingStage._apply(RoutingStage.java:110)
+	at org.glassfish.jersey.server.internal.routing.RoutingStage._apply(RoutingStage.java:113)
+	at org.glassfish.jersey.server.internal.routing.RoutingStage._apply(RoutingStage.java:113)
+	at org.glassfish.jersey.server.internal.routing.RoutingStage._apply(RoutingStage.java:113)
+	at org.glassfish.jersey.server.internal.routing.RoutingStage._apply(RoutingStage.java:113)
+	at org.glassfish.jersey.server.internal.routing.RoutingStage.apply(RoutingStage.java:93)
+	at org.glassfish.jersey.server.internal.routing.RoutingStage.apply(RoutingStage.java:62)
+	at org.glassfish.jersey.process.internal.Stages.process(Stages.java:197)
+	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:269)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:272)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:268)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:316)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:298)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:268)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:289)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:256)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:703)
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:416)
+	... 25 more
+Caused by: java.lang.NoSuchMethodException: Could not find a suitable constructor in com.jersey.rest.api.controller.HowdyController class.
+	at org.glassfish.jersey.inject.hk2.JerseyClassAnalyzer.getConstructor(JerseyClassAnalyzer.java:192)
+	at org.jvnet.hk2.internal.Utilities.getConstructor(Utilities.java:180)
+	at org.jvnet.hk2.internal.Utilities.justCreate(Utilities.java:1066)
+	... 51 more
+2024-06-07 01:19:16 WARN  HttpChannelState:787 - unhandled due to prior sendError
+javax.servlet.ServletException: A MultiException has 1 exceptions.  They are:
+1. java.lang.NoSuchMethodException: Could not find a suitable constructor in com.jersey.rest.api.controller.HowdyController class.
+
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:432)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:370)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:389)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:342)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:229)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:550)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1434)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:501)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1349)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:400)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:645)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:392)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: A MultiException has 1 exceptions.  They are:
+1. java.lang.NoSuchMethodException: Could not find a suitable constructor in com.jersey.rest.api.controller.HowdyController class.
+
+	at org.jvnet.hk2.internal.Collector.throwIfErrors(Collector.java:89)
+	at org.jvnet.hk2.internal.Utilities.justCreate(Utilities.java:1068)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.create(ServiceLocatorImpl.java:978)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.createAndInitialize(ServiceLocatorImpl.java:1082)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.createAndInitialize(ServiceLocatorImpl.java:1074)
+	at org.glassfish.jersey.inject.hk2.AbstractHk2InjectionManager.createAndInitialize(AbstractHk2InjectionManager.java:213)
+	at org.glassfish.jersey.inject.hk2.ImmediateHk2InjectionManager.createAndInitialize(ImmediateHk2InjectionManager.java:54)
+	at org.glassfish.jersey.internal.inject.Injections.getOrCreate(Injections.java:130)
+	at org.glassfish.jersey.server.model.MethodHandler$ClassBasedMethodHandler.getInstance(MethodHandler.java:284)
+	at org.glassfish.jersey.server.internal.routing.PushMethodHandlerRouter.apply(PushMethodHandlerRouter.java:75)
+	at org.glassfish.jersey.server.internal.routing.RoutingStage._apply(RoutingStage.java:110)
+	at org.glassfish.jersey.server.internal.routing.RoutingStage._apply(RoutingStage.java:113)
+	at org.glassfish.jersey.server.internal.routing.RoutingStage._apply(RoutingStage.java:113)
+	at org.glassfish.jersey.server.internal.routing.RoutingStage._apply(RoutingStage.java:113)
+	at org.glassfish.jersey.server.internal.routing.RoutingStage._apply(RoutingStage.java:113)
+	at org.glassfish.jersey.server.internal.routing.RoutingStage.apply(RoutingStage.java:93)
+	at org.glassfish.jersey.server.internal.routing.RoutingStage.apply(RoutingStage.java:62)
+	at org.glassfish.jersey.process.internal.Stages.process(Stages.java:197)
+	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:269)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:272)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:268)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:316)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:298)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:268)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:289)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:256)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:703)
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:416)
+	... 25 more
+Caused by: java.lang.NoSuchMethodException: Could not find a suitable constructor in com.jersey.rest.api.controller.HowdyController class.
+	at org.glassfish.jersey.inject.hk2.JerseyClassAnalyzer.getConstructor(JerseyClassAnalyzer.java:192)
+	at org.jvnet.hk2.internal.Utilities.getConstructor(Utilities.java:180)
+	at org.jvnet.hk2.internal.Utilities.justCreate(Utilities.java:1066)
+	... 51 more
+2024-06-07 01:19:19 WARN  HttpChannel:689 - /howdy
+javax.servlet.ServletException: A MultiException has 1 exceptions.  They are:
+1. java.lang.NoSuchMethodException: Could not find a suitable constructor in com.jersey.rest.api.controller.HowdyController class.
+
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:432)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:370)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:389)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:342)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:229)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:550)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1434)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:501)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1349)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:400)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:645)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:392)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:338)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:315)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:137)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: A MultiException has 1 exceptions.  They are:
+1. java.lang.NoSuchMethodException: Could not find a suitable constructor in com.jersey.rest.api.controller.HowdyController class.
+
+	at org.jvnet.hk2.internal.Collector.throwIfErrors(Collector.java:89)
+	at org.jvnet.hk2.internal.Utilities.justCreate(Utilities.java:1068)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.create(ServiceLocatorImpl.java:978)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.createAndInitialize(ServiceLocatorImpl.java:1082)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.createAndInitialize(ServiceLocatorImpl.java:1074)
+	at org.glassfish.jersey.inject.hk2.AbstractHk2InjectionManager.createAndInitialize(AbstractHk2InjectionManager.java:213)
+	at org.glassfish.jersey.inject.hk2.ImmediateHk2InjectionManager.createAndInitialize(ImmediateHk2InjectionManager.java:54)
+	at org.glassfish.jersey.internal.inject.Injections.getOrCreate(Injections.java:130)
+	at org.glassfish.jersey.server.model.MethodHandler$ClassBasedMethodHandler.getInstance(MethodHandler.java:284)
+	at org.glassfish.jersey.server.internal.routing.PushMethodHandlerRouter.apply(PushMethodHandlerRouter.java:75)
+	at org.glassfish.jersey.server.internal.routing.RoutingStage._apply(RoutingStage.java:110)
+	at org.glassfish.jersey.server.internal.routing.RoutingStage._apply(RoutingStage.java:113)
+	at org.glassfish.jersey.server.internal.routing.RoutingStage._apply(RoutingStage.java:113)
+	at org.glassfish.jersey.server.internal.routing.RoutingStage._apply(RoutingStage.java:113)
+	at org.glassfish.jersey.server.internal.routing.RoutingStage._apply(RoutingStage.java:113)
+	at org.glassfish.jersey.server.internal.routing.RoutingStage.apply(RoutingStage.java:93)
+	at org.glassfish.jersey.server.internal.routing.RoutingStage.apply(RoutingStage.java:62)
+	at org.glassfish.jersey.process.internal.Stages.process(Stages.java:197)
+	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:269)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:272)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:268)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:316)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:298)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:268)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:289)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:256)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:703)
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:416)
+	... 29 more
+Caused by: java.lang.NoSuchMethodException: Could not find a suitable constructor in com.jersey.rest.api.controller.HowdyController class.
+	at org.glassfish.jersey.inject.hk2.JerseyClassAnalyzer.getConstructor(JerseyClassAnalyzer.java:192)
+	at org.jvnet.hk2.internal.Utilities.getConstructor(Utilities.java:180)
+	at org.jvnet.hk2.internal.Utilities.justCreate(Utilities.java:1066)
+	... 55 more
+2024-06-07 01:19:19 WARN  HttpChannelState:787 - unhandled due to prior sendError
+javax.servlet.ServletException: A MultiException has 1 exceptions.  They are:
+1. java.lang.NoSuchMethodException: Could not find a suitable constructor in com.jersey.rest.api.controller.HowdyController class.
+
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:432)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:370)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:389)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:342)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:229)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:550)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1434)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:501)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1349)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:400)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:645)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:392)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:338)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:315)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:137)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: A MultiException has 1 exceptions.  They are:
+1. java.lang.NoSuchMethodException: Could not find a suitable constructor in com.jersey.rest.api.controller.HowdyController class.
+
+	at org.jvnet.hk2.internal.Collector.throwIfErrors(Collector.java:89)
+	at org.jvnet.hk2.internal.Utilities.justCreate(Utilities.java:1068)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.create(ServiceLocatorImpl.java:978)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.createAndInitialize(ServiceLocatorImpl.java:1082)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.createAndInitialize(ServiceLocatorImpl.java:1074)
+	at org.glassfish.jersey.inject.hk2.AbstractHk2InjectionManager.createAndInitialize(AbstractHk2InjectionManager.java:213)
+	at org.glassfish.jersey.inject.hk2.ImmediateHk2InjectionManager.createAndInitialize(ImmediateHk2InjectionManager.java:54)
+	at org.glassfish.jersey.internal.inject.Injections.getOrCreate(Injections.java:130)
+	at org.glassfish.jersey.server.model.MethodHandler$ClassBasedMethodHandler.getInstance(MethodHandler.java:284)
+	at org.glassfish.jersey.server.internal.routing.PushMethodHandlerRouter.apply(PushMethodHandlerRouter.java:75)
+	at org.glassfish.jersey.server.internal.routing.RoutingStage._apply(RoutingStage.java:110)
+	at org.glassfish.jersey.server.internal.routing.RoutingStage._apply(RoutingStage.java:113)
+	at org.glassfish.jersey.server.internal.routing.RoutingStage._apply(RoutingStage.java:113)
+	at org.glassfish.jersey.server.internal.routing.RoutingStage._apply(RoutingStage.java:113)
+	at org.glassfish.jersey.server.internal.routing.RoutingStage._apply(RoutingStage.java:113)
+	at org.glassfish.jersey.server.internal.routing.RoutingStage.apply(RoutingStage.java:93)
+	at org.glassfish.jersey.server.internal.routing.RoutingStage.apply(RoutingStage.java:62)
+	at org.glassfish.jersey.process.internal.Stages.process(Stages.java:197)
+	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:269)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:272)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:268)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:316)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:298)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:268)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:289)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:256)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:703)
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:416)
+	... 29 more
+Caused by: java.lang.NoSuchMethodException: Could not find a suitable constructor in com.jersey.rest.api.controller.HowdyController class.
+	at org.glassfish.jersey.inject.hk2.JerseyClassAnalyzer.getConstructor(JerseyClassAnalyzer.java:192)
+	at org.jvnet.hk2.internal.Utilities.getConstructor(Utilities.java:180)
+	at org.jvnet.hk2.internal.Utilities.justCreate(Utilities.java:1066)
+	... 55 more
+2024-06-07 01:19:20 WARN  HttpChannel:689 - /howdy
+javax.servlet.ServletException: A MultiException has 1 exceptions.  They are:
+1. java.lang.NoSuchMethodException: Could not find a suitable constructor in com.jersey.rest.api.controller.HowdyController class.
+
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:432)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:370)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:389)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:342)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:229)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:550)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1434)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:501)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1349)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:400)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:645)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:392)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:338)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:315)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:137)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: A MultiException has 1 exceptions.  They are:
+1. java.lang.NoSuchMethodException: Could not find a suitable constructor in com.jersey.rest.api.controller.HowdyController class.
+
+	at org.jvnet.hk2.internal.Collector.throwIfErrors(Collector.java:89)
+	at org.jvnet.hk2.internal.Utilities.justCreate(Utilities.java:1068)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.create(ServiceLocatorImpl.java:978)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.createAndInitialize(ServiceLocatorImpl.java:1082)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.createAndInitialize(ServiceLocatorImpl.java:1074)
+	at org.glassfish.jersey.inject.hk2.AbstractHk2InjectionManager.createAndInitialize(AbstractHk2InjectionManager.java:213)
+	at org.glassfish.jersey.inject.hk2.ImmediateHk2InjectionManager.createAndInitialize(ImmediateHk2InjectionManager.java:54)
+	at org.glassfish.jersey.internal.inject.Injections.getOrCreate(Injections.java:130)
+	at org.glassfish.jersey.server.model.MethodHandler$ClassBasedMethodHandler.getInstance(MethodHandler.java:284)
+	at org.glassfish.jersey.server.internal.routing.PushMethodHandlerRouter.apply(PushMethodHandlerRouter.java:75)
+	at org.glassfish.jersey.server.internal.routing.RoutingStage._apply(RoutingStage.java:110)
+	at org.glassfish.jersey.server.internal.routing.RoutingStage._apply(RoutingStage.java:113)
+	at org.glassfish.jersey.server.internal.routing.RoutingStage._apply(RoutingStage.java:113)
+	at org.glassfish.jersey.server.internal.routing.RoutingStage._apply(RoutingStage.java:113)
+	at org.glassfish.jersey.server.internal.routing.RoutingStage._apply(RoutingStage.java:113)
+	at org.glassfish.jersey.server.internal.routing.RoutingStage.apply(RoutingStage.java:93)
+	at org.glassfish.jersey.server.internal.routing.RoutingStage.apply(RoutingStage.java:62)
+	at org.glassfish.jersey.process.internal.Stages.process(Stages.java:197)
+	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:269)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:272)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:268)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:316)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:298)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:268)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:289)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:256)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:703)
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:416)
+	... 29 more
+Caused by: java.lang.NoSuchMethodException: Could not find a suitable constructor in com.jersey.rest.api.controller.HowdyController class.
+	at org.glassfish.jersey.inject.hk2.JerseyClassAnalyzer.getConstructor(JerseyClassAnalyzer.java:192)
+	at org.jvnet.hk2.internal.Utilities.getConstructor(Utilities.java:180)
+	at org.jvnet.hk2.internal.Utilities.justCreate(Utilities.java:1066)
+	... 55 more
+2024-06-07 01:19:20 WARN  HttpChannelState:787 - unhandled due to prior sendError
+javax.servlet.ServletException: A MultiException has 1 exceptions.  They are:
+1. java.lang.NoSuchMethodException: Could not find a suitable constructor in com.jersey.rest.api.controller.HowdyController class.
+
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:432)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:370)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:389)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:342)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:229)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:550)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1434)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:501)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1349)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:400)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:645)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:392)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:338)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:315)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:137)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: A MultiException has 1 exceptions.  They are:
+1. java.lang.NoSuchMethodException: Could not find a suitable constructor in com.jersey.rest.api.controller.HowdyController class.
+
+	at org.jvnet.hk2.internal.Collector.throwIfErrors(Collector.java:89)
+	at org.jvnet.hk2.internal.Utilities.justCreate(Utilities.java:1068)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.create(ServiceLocatorImpl.java:978)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.createAndInitialize(ServiceLocatorImpl.java:1082)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.createAndInitialize(ServiceLocatorImpl.java:1074)
+	at org.glassfish.jersey.inject.hk2.AbstractHk2InjectionManager.createAndInitialize(AbstractHk2InjectionManager.java:213)
+	at org.glassfish.jersey.inject.hk2.ImmediateHk2InjectionManager.createAndInitialize(ImmediateHk2InjectionManager.java:54)
+	at org.glassfish.jersey.internal.inject.Injections.getOrCreate(Injections.java:130)
+	at org.glassfish.jersey.server.model.MethodHandler$ClassBasedMethodHandler.getInstance(MethodHandler.java:284)
+	at org.glassfish.jersey.server.internal.routing.PushMethodHandlerRouter.apply(PushMethodHandlerRouter.java:75)
+	at org.glassfish.jersey.server.internal.routing.RoutingStage._apply(RoutingStage.java:110)
+	at org.glassfish.jersey.server.internal.routing.RoutingStage._apply(RoutingStage.java:113)
+	at org.glassfish.jersey.server.internal.routing.RoutingStage._apply(RoutingStage.java:113)
+	at org.glassfish.jersey.server.internal.routing.RoutingStage._apply(RoutingStage.java:113)
+	at org.glassfish.jersey.server.internal.routing.RoutingStage._apply(RoutingStage.java:113)
+	at org.glassfish.jersey.server.internal.routing.RoutingStage.apply(RoutingStage.java:93)
+	at org.glassfish.jersey.server.internal.routing.RoutingStage.apply(RoutingStage.java:62)
+	at org.glassfish.jersey.process.internal.Stages.process(Stages.java:197)
+	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:269)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:272)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:268)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:316)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:298)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:268)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:289)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:256)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:703)
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:416)
+	... 29 more
+Caused by: java.lang.NoSuchMethodException: Could not find a suitable constructor in com.jersey.rest.api.controller.HowdyController class.
+	at org.glassfish.jersey.inject.hk2.JerseyClassAnalyzer.getConstructor(JerseyClassAnalyzer.java:192)
+	at org.jvnet.hk2.internal.Utilities.getConstructor(Utilities.java:180)
+	at org.jvnet.hk2.internal.Utilities.justCreate(Utilities.java:1066)
+	... 55 more
+2024-06-07 09:18:34 INFO  log:170 - Logging initialized @1954ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-07 09:18:34 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 11.0.18+9-LTS-195
+2024-06-07 09:18:36 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@6826c41e{/,null,AVAILABLE}
+2024-06-07 09:18:36 INFO  AbstractConnector:331 - Started ServerConnector@63021689{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-07 09:18:36 INFO  Server:415 - Started @4576ms
+2024-06-07 09:18:50 INFO  HowdyController:19 - --------------- Hello Howdy --------------------
+2024-06-07 09:31:39 INFO  log:170 - Logging initialized @1431ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-07 09:31:40 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 11.0.18+9-LTS-195
+2024-06-07 09:31:42 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@6826c41e{/,null,AVAILABLE}
+2024-06-07 09:31:42 INFO  AbstractConnector:331 - Started ServerConnector@63021689{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-07 09:31:42 INFO  Server:415 - Started @4404ms
+2024-06-07 09:32:00 INFO  log:170 - Logging initialized @1371ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-07 09:32:01 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 11.0.18+9-LTS-195
+2024-06-07 09:32:03 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@6826c41e{/,null,AVAILABLE}
+2024-06-07 09:32:03 INFO  AbstractConnector:331 - Started ServerConnector@63021689{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-07 09:32:03 INFO  Server:415 - Started @4228ms
+2024-06-07 09:45:06 INFO  log:170 - Logging initialized @1308ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-07 09:45:06 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 11.0.18+9-LTS-195
+2024-06-07 17:24:43 INFO  log:170 - Logging initialized @566ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-07 17:24:43 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 11.0.17+10-LTS-269
+2024-06-07 17:24:45 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@15f193b8{/,null,AVAILABLE}
+2024-06-07 17:24:45 INFO  AbstractConnector:331 - Started ServerConnector@70e8f8e{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-07 17:24:45 INFO  Server:415 - Started @2637ms
+2024-06-07 17:44:57 INFO  log:170 - Logging initialized @984ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-07 17:44:57 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 11.0.17+10-LTS-269
+2024-06-07 17:44:59 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@3c4bc9fc{/,null,AVAILABLE}
+2024-06-07 17:44:59 INFO  AbstractConnector:331 - Started ServerConnector@64cd705f{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-07 17:44:59 INFO  Server:415 - Started @2943ms
+2024-06-07 17:48:52 INFO  log:170 - Logging initialized @561ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-07 17:48:52 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 11.0.17+10-LTS-269
+2024-06-07 17:48:54 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@bf71cec{/,null,AVAILABLE}
+2024-06-07 17:48:54 INFO  AbstractConnector:331 - Started ServerConnector@64cd705f{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-07 17:48:54 INFO  Server:415 - Started @2464ms
+2024-06-07 18:08:32 INFO  log:170 - Logging initialized @926ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-07 18:08:32 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 11.0.17+10-LTS-269
+2024-06-07 18:08:34 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@15f193b8{/,null,AVAILABLE}
+2024-06-07 18:08:34 INFO  AbstractConnector:331 - Started ServerConnector@70e8f8e{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-07 18:08:34 INFO  Server:415 - Started @2966ms
+2024-06-08 00:05:29 INFO  log:170 - Logging initialized @728ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-08 00:05:29 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 11.0.17+10-LTS-269
+2024-06-08 00:05:31 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@304a9d7b{/,null,AVAILABLE}
+2024-06-08 00:05:31 INFO  AbstractConnector:331 - Started ServerConnector@5bd03f44{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-08 00:05:31 INFO  Server:415 - Started @2733ms
+2024-06-08 00:22:23 INFO  log:170 - Logging initialized @711ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-08 00:22:24 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 11.0.17+10-LTS-269
+2024-06-08 00:22:25 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@304a9d7b{/,null,AVAILABLE}
+2024-06-08 00:23:02 INFO  log:170 - Logging initialized @647ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-08 00:23:02 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 11.0.17+10-LTS-269
+2024-06-08 00:23:04 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@55f45b92{/,null,AVAILABLE}
+2024-06-08 00:23:04 INFO  AbstractConnector:331 - Started ServerConnector@5bd03f44{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-08 00:23:04 INFO  Server:415 - Started @2484ms
+2024-06-08 00:25:33 INFO  log:170 - Logging initialized @646ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-08 00:25:33 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 11.0.17+10-LTS-269
+2024-06-08 00:25:35 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@55f45b92{/,null,AVAILABLE}
+2024-06-08 00:25:35 INFO  AbstractConnector:331 - Started ServerConnector@5bd03f44{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-08 00:25:35 INFO  Server:415 - Started @2509ms
+2024-06-08 00:27:49 INFO  log:170 - Logging initialized @538ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-08 00:27:49 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 11.0.17+10-LTS-269
+2024-06-08 00:27:50 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@55f45b92{/,null,AVAILABLE}
+2024-06-08 00:27:50 INFO  AbstractConnector:331 - Started ServerConnector@5bd03f44{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-08 00:27:50 INFO  Server:415 - Started @2449ms
+2024-06-08 00:29:16 INFO  log:170 - Logging initialized @553ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-08 00:29:17 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 11.0.17+10-LTS-269
+2024-06-08 00:29:18 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@55f45b92{/,null,AVAILABLE}
+2024-06-08 00:29:18 INFO  AbstractConnector:331 - Started ServerConnector@5bd03f44{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-08 00:29:18 INFO  Server:415 - Started @2379ms
+2024-06-08 00:32:29 INFO  log:170 - Logging initialized @561ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-08 00:32:29 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 11.0.17+10-LTS-269
+2024-06-08 00:32:31 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@55f45b92{/,null,AVAILABLE}
+2024-06-08 00:32:31 INFO  AbstractConnector:331 - Started ServerConnector@5bd03f44{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-08 00:32:31 INFO  Server:415 - Started @2511ms
+2024-06-08 00:53:35 INFO  log:170 - Logging initialized @514ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-08 00:53:35 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 11.0.17+10-LTS-269
+2024-06-08 00:53:37 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@30cdae70{/,null,AVAILABLE}
+2024-06-08 00:53:37 INFO  AbstractConnector:331 - Started ServerConnector@5bd03f44{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-08 00:53:37 INFO  Server:415 - Started @2368ms
+2024-06-08 00:54:50 WARN  HttpChannel:689 - /auth/login
+javax.servlet.ServletException: java.lang.NullPointerException
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:432)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:370)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:389)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:342)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:229)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:550)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1434)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:501)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1349)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:400)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:645)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:392)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:221)
+	at java.base/java.util.ImmutableCollections$MapN.<init>(ImmutableCollections.java:802)
+	at java.base/java.util.Map.of(Map.java:1349)
+	at com.jersey.rest.api.controller.AuthenticationController.loginUser(AuthenticationController.java:93)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory.lambda$static$0(ResourceMethodInvocationHandlerFactory.java:76)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:148)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:191)
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$ResponseOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:200)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:103)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:493)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:415)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:104)
+	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:277)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:272)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:268)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:316)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:298)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:268)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:289)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:256)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:703)
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:416)
+	... 25 more
+2024-06-08 00:54:50 WARN  HttpChannelState:787 - unhandled due to prior sendError
+javax.servlet.ServletException: java.lang.NullPointerException
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:432)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:370)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:389)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:342)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:229)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:550)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1434)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:501)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1349)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:400)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:645)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:392)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:221)
+	at java.base/java.util.ImmutableCollections$MapN.<init>(ImmutableCollections.java:802)
+	at java.base/java.util.Map.of(Map.java:1349)
+	at com.jersey.rest.api.controller.AuthenticationController.loginUser(AuthenticationController.java:93)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory.lambda$static$0(ResourceMethodInvocationHandlerFactory.java:76)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:148)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:191)
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$ResponseOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:200)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:103)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:493)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:415)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:104)
+	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:277)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:272)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:268)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:316)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:298)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:268)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:289)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:256)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:703)
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:416)
+	... 25 more
+2024-06-08 00:54:59 INFO  log:170 - Logging initialized @606ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-08 00:54:59 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 11.0.17+10-LTS-269
+2024-06-08 00:55:01 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@30cdae70{/,null,AVAILABLE}
+2024-06-08 00:55:01 INFO  AbstractConnector:331 - Started ServerConnector@5bd03f44{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-08 00:55:01 INFO  Server:415 - Started @2615ms
+2024-06-08 00:55:22 WARN  HttpChannel:689 - /auth/login
+javax.servlet.ServletException: java.lang.NullPointerException
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:432)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:370)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:389)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:342)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:229)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:550)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1434)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:501)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1349)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:400)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:645)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:392)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:221)
+	at java.base/java.util.ImmutableCollections$MapN.<init>(ImmutableCollections.java:802)
+	at java.base/java.util.Map.of(Map.java:1349)
+	at com.jersey.rest.api.controller.AuthenticationController.loginUser(AuthenticationController.java:93)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory.lambda$static$0(ResourceMethodInvocationHandlerFactory.java:76)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:148)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:191)
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$ResponseOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:200)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:103)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:493)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:415)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:104)
+	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:277)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:272)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:268)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:316)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:298)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:268)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:289)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:256)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:703)
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:416)
+	... 25 more
+2024-06-08 00:55:22 WARN  HttpChannelState:787 - unhandled due to prior sendError
+javax.servlet.ServletException: java.lang.NullPointerException
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:432)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:370)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:389)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:342)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:229)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:550)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1434)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:501)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1349)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:400)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:645)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:392)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:221)
+	at java.base/java.util.ImmutableCollections$MapN.<init>(ImmutableCollections.java:802)
+	at java.base/java.util.Map.of(Map.java:1349)
+	at com.jersey.rest.api.controller.AuthenticationController.loginUser(AuthenticationController.java:93)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory.lambda$static$0(ResourceMethodInvocationHandlerFactory.java:76)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:148)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:191)
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$ResponseOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:200)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:103)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:493)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:256)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:703)
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:416)
+	... 25 more
+2024-06-08 00:58:40 INFO  log:170 - Logging initialized @570ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-08 00:58:40 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 11.0.17+10-LTS-269
+2024-06-08 00:58:42 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@30cdae70{/,null,AVAILABLE}
+2024-06-08 00:58:42 INFO  AbstractConnector:331 - Started ServerConnector@5bd03f44{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-08 00:58:42 INFO  Server:415 - Started @2202ms
+2024-06-08 01:03:04 INFO  log:170 - Logging initialized @721ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-08 01:03:04 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 11.0.17+10-LTS-269
+2024-06-08 01:03:05 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@30cdae70{/,null,AVAILABLE}
+2024-06-08 01:03:05 INFO  AbstractConnector:331 - Started ServerConnector@5bd03f44{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-08 01:03:05 INFO  Server:415 - Started @2564ms
+2024-06-08 01:50:34 INFO  log:170 - Logging initialized @936ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-08 01:50:35 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 11.0.17+10-LTS-269
+2024-06-08 01:50:36 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@30cdae70{/,null,AVAILABLE}
+2024-06-08 01:50:36 INFO  AbstractConnector:331 - Started ServerConnector@5bd03f44{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-08 01:50:36 INFO  Server:415 - Started @2842ms
+2024-06-08 01:51:37 INFO  log:170 - Logging initialized @629ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-08 01:51:37 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 11.0.17+10-LTS-269
+2024-06-08 01:51:39 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@30cdae70{/,null,AVAILABLE}
+2024-06-08 01:51:39 INFO  AbstractConnector:331 - Started ServerConnector@5bd03f44{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-08 01:51:39 INFO  Server:415 - Started @2430ms
+2024-06-08 23:10:19 INFO  log:170 - Logging initialized @934ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-08 23:10:20 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 17.0.7+8-LTS-224
+2024-06-08 23:10:22 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@4a067c25{/,null,AVAILABLE}
+2024-06-08 23:10:22 INFO  AbstractConnector:331 - Started ServerConnector@5702b3b1{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-08 23:10:22 INFO  Server:415 - Started @4075ms
+2024-06-08 23:10:40 INFO  RequestLoggingFilter:19 - Request Start Time : 1717868440759
+2024-06-08 23:10:40 INFO  UserController:29 - ------- Current User Request --------UserDTO(id=4bac3ec9-8ebf-41b5-90cb-55ee1502b11a, firstName=Pritam, lastName=Ray, email=ray@gmail.com, username=admin, password=$2a$10$4QEiNgRuPeYxC47KhqIaRe4vp63udbVhoGI0qo/gDz3LZAbTQW2r., active=true, authorities=[USER, ADMIN])
+2024-06-08 23:10:40 INFO  RequestLoggingFilter:27 - Request End Time : 1717868440810
+2024-06-08 23:10:40 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------51 ms
+2024-06-08 23:10:59 INFO  RequestLoggingFilter:19 - Request Start Time : 1717868459100
+2024-06-08 23:10:59 INFO  HowdyController:22 - --------------- Hello Howdy --------------------
+2024-06-08 23:10:59 INFO  RequestLoggingFilter:27 - Request End Time : 1717868459102
+2024-06-08 23:10:59 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------2 ms
+2024-06-08 23:11:03 INFO  RequestLoggingFilter:19 - Request Start Time : 1717868463522
+2024-06-08 23:11:03 INFO  HowdyController:22 - --------------- Hello Howdy --------------------
+2024-06-08 23:11:03 INFO  RequestLoggingFilter:27 - Request End Time : 1717868463529
+2024-06-08 23:11:03 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------7 ms
+2024-06-08 23:11:03 INFO  RequestLoggingFilter:19 - Request Start Time : 1717868463983
+2024-06-08 23:11:03 INFO  HowdyController:22 - --------------- Hello Howdy --------------------
+2024-06-08 23:11:03 INFO  RequestLoggingFilter:27 - Request End Time : 1717868463985
+2024-06-08 23:11:03 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------2 ms
+2024-06-08 23:11:04 INFO  RequestLoggingFilter:19 - Request Start Time : 1717868464908
+2024-06-08 23:11:04 INFO  HowdyController:22 - --------------- Hello Howdy --------------------
+2024-06-08 23:11:04 INFO  RequestLoggingFilter:27 - Request End Time : 1717868464909
+2024-06-08 23:11:04 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------1 ms
+2024-06-08 23:11:05 INFO  RequestLoggingFilter:19 - Request Start Time : 1717868465476
+2024-06-08 23:11:05 INFO  HowdyController:22 - --------------- Hello Howdy --------------------
+2024-06-08 23:11:05 INFO  RequestLoggingFilter:27 - Request End Time : 1717868465477
+2024-06-08 23:11:05 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------1 ms
+2024-06-08 23:11:07 INFO  RequestLoggingFilter:19 - Request Start Time : 1717868467643
+2024-06-08 23:11:07 INFO  HowdyController:22 - --------------- Hello Howdy --------------------
+2024-06-08 23:11:07 INFO  RequestLoggingFilter:27 - Request End Time : 1717868467645
+2024-06-08 23:11:07 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------2 ms
+2024-06-08 23:11:26 INFO  RequestLoggingFilter:19 - Request Start Time : 1717868486376
+2024-06-08 23:11:26 INFO  UserController:29 - ------- Current User Request --------UserDTO(id=4bac3ec9-8ebf-41b5-90cb-55ee1502b11a, firstName=Pritam, lastName=Ray, email=ray@gmail.com, username=admin, password=$2a$10$4QEiNgRuPeYxC47KhqIaRe4vp63udbVhoGI0qo/gDz3LZAbTQW2r., active=true, authorities=[USER, ADMIN])
+2024-06-08 23:11:26 INFO  RequestLoggingFilter:27 - Request End Time : 1717868486380
+2024-06-08 23:11:26 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------4 ms
+2024-06-08 23:11:28 INFO  RequestLoggingFilter:19 - Request Start Time : 1717868488489
+2024-06-08 23:11:28 INFO  UserController:29 - ------- Current User Request --------UserDTO(id=4bac3ec9-8ebf-41b5-90cb-55ee1502b11a, firstName=Pritam, lastName=Ray, email=ray@gmail.com, username=admin, password=$2a$10$4QEiNgRuPeYxC47KhqIaRe4vp63udbVhoGI0qo/gDz3LZAbTQW2r., active=true, authorities=[USER, ADMIN])
+2024-06-08 23:11:28 INFO  RequestLoggingFilter:27 - Request End Time : 1717868488492
+2024-06-08 23:11:28 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------3 ms
+2024-06-08 23:11:28 INFO  RequestLoggingFilter:19 - Request Start Time : 1717868488897
+2024-06-08 23:11:28 INFO  UserController:29 - ------- Current User Request --------UserDTO(id=4bac3ec9-8ebf-41b5-90cb-55ee1502b11a, firstName=Pritam, lastName=Ray, email=ray@gmail.com, username=admin, password=$2a$10$4QEiNgRuPeYxC47KhqIaRe4vp63udbVhoGI0qo/gDz3LZAbTQW2r., active=true, authorities=[USER, ADMIN])
+2024-06-08 23:11:28 INFO  RequestLoggingFilter:27 - Request End Time : 1717868488898
+2024-06-08 23:11:28 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------1 ms
+2024-06-08 23:11:29 INFO  RequestLoggingFilter:19 - Request Start Time : 1717868489610
+2024-06-08 23:11:29 INFO  UserController:29 - ------- Current User Request --------UserDTO(id=4bac3ec9-8ebf-41b5-90cb-55ee1502b11a, firstName=Pritam, lastName=Ray, email=ray@gmail.com, username=admin, password=$2a$10$4QEiNgRuPeYxC47KhqIaRe4vp63udbVhoGI0qo/gDz3LZAbTQW2r., active=true, authorities=[USER, ADMIN])
+2024-06-08 23:11:29 INFO  RequestLoggingFilter:27 - Request End Time : 1717868489613
+2024-06-08 23:11:29 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------3 ms
+2024-06-08 23:11:30 INFO  RequestLoggingFilter:19 - Request Start Time : 1717868490271
+2024-06-08 23:11:30 INFO  UserController:29 - ------- Current User Request --------UserDTO(id=4bac3ec9-8ebf-41b5-90cb-55ee1502b11a, firstName=Pritam, lastName=Ray, email=ray@gmail.com, username=admin, password=$2a$10$4QEiNgRuPeYxC47KhqIaRe4vp63udbVhoGI0qo/gDz3LZAbTQW2r., active=true, authorities=[USER, ADMIN])
+2024-06-08 23:11:30 INFO  RequestLoggingFilter:27 - Request End Time : 1717868490274
+2024-06-08 23:11:30 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------3 ms
+2024-06-08 23:11:30 INFO  RequestLoggingFilter:19 - Request Start Time : 1717868490917
+2024-06-08 23:11:30 INFO  UserController:29 - ------- Current User Request --------UserDTO(id=4bac3ec9-8ebf-41b5-90cb-55ee1502b11a, firstName=Pritam, lastName=Ray, email=ray@gmail.com, username=admin, password=$2a$10$4QEiNgRuPeYxC47KhqIaRe4vp63udbVhoGI0qo/gDz3LZAbTQW2r., active=true, authorities=[USER, ADMIN])
+2024-06-08 23:11:30 INFO  RequestLoggingFilter:27 - Request End Time : 1717868490919
+2024-06-08 23:11:30 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------2 ms
+2024-06-08 23:11:31 INFO  RequestLoggingFilter:19 - Request Start Time : 1717868491568
+2024-06-08 23:11:31 INFO  UserController:29 - ------- Current User Request --------UserDTO(id=4bac3ec9-8ebf-41b5-90cb-55ee1502b11a, firstName=Pritam, lastName=Ray, email=ray@gmail.com, username=admin, password=$2a$10$4QEiNgRuPeYxC47KhqIaRe4vp63udbVhoGI0qo/gDz3LZAbTQW2r., active=true, authorities=[USER, ADMIN])
+2024-06-08 23:11:31 INFO  RequestLoggingFilter:27 - Request End Time : 1717868491570
+2024-06-08 23:11:31 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------2 ms
+2024-06-08 23:11:32 INFO  RequestLoggingFilter:19 - Request Start Time : 1717868492282
+2024-06-08 23:11:32 INFO  UserController:29 - ------- Current User Request --------UserDTO(id=4bac3ec9-8ebf-41b5-90cb-55ee1502b11a, firstName=Pritam, lastName=Ray, email=ray@gmail.com, username=admin, password=$2a$10$4QEiNgRuPeYxC47KhqIaRe4vp63udbVhoGI0qo/gDz3LZAbTQW2r., active=true, authorities=[USER, ADMIN])
+2024-06-08 23:11:32 INFO  RequestLoggingFilter:27 - Request End Time : 1717868492285
+2024-06-08 23:11:32 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------3 ms
+2024-06-08 23:11:32 INFO  RequestLoggingFilter:19 - Request Start Time : 1717868492915
+2024-06-08 23:11:32 INFO  UserController:29 - ------- Current User Request --------UserDTO(id=4bac3ec9-8ebf-41b5-90cb-55ee1502b11a, firstName=Pritam, lastName=Ray, email=ray@gmail.com, username=admin, password=$2a$10$4QEiNgRuPeYxC47KhqIaRe4vp63udbVhoGI0qo/gDz3LZAbTQW2r., active=true, authorities=[USER, ADMIN])
+2024-06-08 23:11:32 INFO  RequestLoggingFilter:27 - Request End Time : 1717868492917
+2024-06-08 23:11:32 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------2 ms
+2024-06-08 23:11:33 INFO  RequestLoggingFilter:19 - Request Start Time : 1717868493453
+2024-06-08 23:11:33 INFO  UserController:29 - ------- Current User Request --------UserDTO(id=4bac3ec9-8ebf-41b5-90cb-55ee1502b11a, firstName=Pritam, lastName=Ray, email=ray@gmail.com, username=admin, password=$2a$10$4QEiNgRuPeYxC47KhqIaRe4vp63udbVhoGI0qo/gDz3LZAbTQW2r., active=true, authorities=[USER, ADMIN])
+2024-06-08 23:11:33 INFO  RequestLoggingFilter:27 - Request End Time : 1717868493455
+2024-06-08 23:11:33 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------2 ms
+2024-06-08 23:11:34 INFO  RequestLoggingFilter:19 - Request Start Time : 1717868494301
+2024-06-08 23:11:34 INFO  UserController:29 - ------- Current User Request --------UserDTO(id=4bac3ec9-8ebf-41b5-90cb-55ee1502b11a, firstName=Pritam, lastName=Ray, email=ray@gmail.com, username=admin, password=$2a$10$4QEiNgRuPeYxC47KhqIaRe4vp63udbVhoGI0qo/gDz3LZAbTQW2r., active=true, authorities=[USER, ADMIN])
+2024-06-08 23:11:34 INFO  RequestLoggingFilter:27 - Request End Time : 1717868494303
+2024-06-08 23:11:34 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------2 ms
+2024-06-08 23:19:04 INFO  log:170 - Logging initialized @1153ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-08 23:19:05 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 17.0.7+8-LTS-224
+2024-06-08 23:19:07 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@754777cd{/,null,AVAILABLE}
+2024-06-08 23:19:07 INFO  AbstractConnector:331 - Started ServerConnector@5702b3b1{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-08 23:19:07 INFO  Server:415 - Started @4285ms
+2024-06-08 23:19:23 INFO  log:170 - Logging initialized @1051ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-08 23:19:23 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 17.0.7+8-LTS-224
+2024-06-08 23:19:25 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@754777cd{/,null,AVAILABLE}
+2024-06-08 23:19:25 INFO  AbstractConnector:331 - Started ServerConnector@5702b3b1{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-08 23:19:25 INFO  Server:415 - Started @3951ms
+2024-06-08 23:20:01 INFO  log:170 - Logging initialized @891ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-08 23:20:01 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 17.0.7+8-LTS-224
+2024-06-08 23:20:03 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@5dcbb60{/,null,AVAILABLE}
+2024-06-08 23:20:03 INFO  AbstractConnector:331 - Started ServerConnector@5702b3b1{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-08 23:20:03 INFO  Server:415 - Started @3429ms
+2024-06-08 23:20:58 INFO  RequestLoggingFilter:19 - Request Start Time : 1717869058396
+2024-06-08 23:20:58 INFO  UserController:29 - ------- Current User Request --------UserDTO(id=4bac3ec9-8ebf-41b5-90cb-55ee1502b11a, firstName=Pritam, lastName=Ray, email=ray@gmail.com, username=admin, password=$2a$10$4QEiNgRuPeYxC47KhqIaRe4vp63udbVhoGI0qo/gDz3LZAbTQW2r., active=true, authorities=[USER, ADMIN])
+2024-06-08 23:20:58 INFO  RequestLoggingFilter:27 - Request End Time : 1717869058436
+2024-06-08 23:20:58 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------40 ms
+2024-06-08 23:22:11 INFO  RequestLoggingFilter:19 - Request Start Time : 1717869131847
+2024-06-08 23:22:11 INFO  UserController:29 - ------- Current User Request --------UserDTO(id=4bac3ec9-8ebf-41b5-90cb-55ee1502b11a, firstName=Pritam, lastName=Ray, email=ray@gmail.com, username=admin, password=$2a$10$4QEiNgRuPeYxC47KhqIaRe4vp63udbVhoGI0qo/gDz3LZAbTQW2r., active=true, authorities=[USER, ADMIN])
+2024-06-08 23:22:11 INFO  RequestLoggingFilter:27 - Request End Time : 1717869131851
+2024-06-08 23:22:11 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------4 ms
+2024-06-08 23:22:14 INFO  RequestLoggingFilter:19 - Request Start Time : 1717869134868
+2024-06-08 23:22:14 INFO  HowdyController:24 - --------------- Hello Howdy --------------------
+2024-06-08 23:22:14 INFO  RequestLoggingFilter:27 - Request End Time : 1717869134870
+2024-06-08 23:22:14 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------2 ms
+2024-06-08 23:22:16 INFO  RequestLoggingFilter:19 - Request Start Time : 1717869136239
+2024-06-08 23:22:16 INFO  HowdyController:24 - --------------- Hello Howdy --------------------
+2024-06-08 23:22:16 INFO  RequestLoggingFilter:27 - Request End Time : 1717869136241
+2024-06-08 23:22:16 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------2 ms
+2024-06-08 23:22:45 INFO  log:170 - Logging initialized @1126ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-08 23:22:46 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 17.0.7+8-LTS-224
+2024-06-08 23:22:47 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@5dcbb60{/,null,AVAILABLE}
+2024-06-08 23:22:47 INFO  AbstractConnector:331 - Started ServerConnector@5702b3b1{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-08 23:22:47 INFO  Server:415 - Started @3322ms
+2024-06-08 23:22:57 WARN  HttpChannel:689 - /howdy
+javax.servlet.ServletException: java.lang.IllegalArgumentException: No enum constant com.jersey.rest.api.entity.Authority.MANAGER
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:432)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:370)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:389)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:342)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:229)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:550)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1434)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:501)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1349)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:400)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:645)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:392)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.IllegalArgumentException: No enum constant com.jersey.rest.api.entity.Authority.MANAGER
+	at java.base/java.lang.Enum.valueOf(Enum.java:273)
+	at com.jersey.rest.api.entity.Authority.valueOf(Authority.java:3)
+	at com.jersey.rest.api.security.TokenBasedSecurityContext.isUserInRole(TokenBasedSecurityContext.java:26)
+	at org.glassfish.jersey.server.filter.RolesAllowedDynamicFeature$RolesAllowedRequestFilter.filter(RolesAllowedDynamicFeature.java:143)
+	at org.glassfish.jersey.server.ContainerFilteringStage.apply(ContainerFilteringStage.java:132)
+	at org.glassfish.jersey.server.ContainerFilteringStage.apply(ContainerFilteringStage.java:68)
+	at org.glassfish.jersey.process.internal.Stages.process(Stages.java:197)
+	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:269)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:272)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:268)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:316)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:298)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:268)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:289)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:256)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:703)
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:416)
+	... 25 more
+2024-06-08 23:22:57 WARN  HttpChannelState:787 - unhandled due to prior sendError
+javax.servlet.ServletException: java.lang.IllegalArgumentException: No enum constant com.jersey.rest.api.entity.Authority.MANAGER
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:432)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:370)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:389)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:342)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:229)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:550)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1434)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:501)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1349)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:400)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:645)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:392)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.IllegalArgumentException: No enum constant com.jersey.rest.api.entity.Authority.MANAGER
+	at java.base/java.lang.Enum.valueOf(Enum.java:273)
+	at com.jersey.rest.api.entity.Authority.valueOf(Authority.java:3)
+	at com.jersey.rest.api.security.TokenBasedSecurityContext.isUserInRole(TokenBasedSecurityContext.java:26)
+	at org.glassfish.jersey.server.filter.RolesAllowedDynamicFeature$RolesAllowedRequestFilter.filter(RolesAllowedDynamicFeature.java:143)
+	at org.glassfish.jersey.server.ContainerFilteringStage.apply(ContainerFilteringStage.java:132)
+	at org.glassfish.jersey.server.ContainerFilteringStage.apply(ContainerFilteringStage.java:68)
+	at org.glassfish.jersey.process.internal.Stages.process(Stages.java:197)
+	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:269)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:272)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:268)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:316)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:298)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:268)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:289)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:256)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:703)
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:416)
+	... 25 more
+2024-06-08 23:25:22 INFO  log:170 - Logging initialized @947ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-08 23:25:23 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 17.0.7+8-LTS-224
+2024-06-08 23:25:26 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@4c36250e{/,null,AVAILABLE}
+2024-06-08 23:25:26 INFO  AbstractConnector:331 - Started ServerConnector@5702b3b1{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-08 23:25:26 INFO  Server:415 - Started @4960ms
+2024-06-08 23:25:30 WARN  HttpChannel:689 - /howdy
+javax.servlet.ServletException: org.glassfish.jersey.server.internal.process.MappableException: java.lang.NullPointerException: Cannot invoke "java.lang.Long.longValue()" because the return value of "javax.ws.rs.container.ContainerRequestContext.getProperty(String)" is null
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:432)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:370)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:389)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:342)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:229)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:550)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1434)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:501)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1349)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:400)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:645)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:392)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.glassfish.jersey.server.internal.process.MappableException: java.lang.NullPointerException: Cannot invoke "java.lang.Long.longValue()" because the return value of "javax.ws.rs.container.ContainerRequestContext.getProperty(String)" is null
+	at org.glassfish.jersey.server.ContainerFilteringStage$ResponseFilterStage.apply(ContainerFilteringStage.java:198)
+	at org.glassfish.jersey.server.ContainerFilteringStage$ResponseFilterStage.apply(ContainerFilteringStage.java:163)
+	at org.glassfish.jersey.process.internal.Stages.process(Stages.java:171)
+	at org.glassfish.jersey.server.ServerRuntime$Responder.processResponse(ServerRuntime.java:393)
+	at org.glassfish.jersey.server.ServerRuntime$Responder.process(ServerRuntime.java:441)
+	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:285)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:272)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:268)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:316)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:298)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:268)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:289)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:256)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:703)
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:416)
+	... 25 more
+Caused by: java.lang.NullPointerException: Cannot invoke "java.lang.Long.longValue()" because the return value of "javax.ws.rs.container.ContainerRequestContext.getProperty(String)" is null
+	at com.jersey.rest.api.filters.RequestLoggingFilter.filter(RequestLoggingFilter.java:25)
+	at org.glassfish.jersey.server.ContainerFilteringStage$ResponseFilterStage.apply(ContainerFilteringStage.java:196)
+	... 39 more
+2024-06-08 23:25:30 WARN  HttpChannelState:787 - unhandled due to prior sendError
+javax.servlet.ServletException: org.glassfish.jersey.server.internal.process.MappableException: java.lang.NullPointerException: Cannot invoke "java.lang.Long.longValue()" because the return value of "javax.ws.rs.container.ContainerRequestContext.getProperty(String)" is null
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:432)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:370)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:389)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:342)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:229)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:550)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1434)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:501)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1349)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:400)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:645)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:392)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.glassfish.jersey.server.internal.process.MappableException: java.lang.NullPointerException: Cannot invoke "java.lang.Long.longValue()" because the return value of "javax.ws.rs.container.ContainerRequestContext.getProperty(String)" is null
+	at org.glassfish.jersey.server.ContainerFilteringStage$ResponseFilterStage.apply(ContainerFilteringStage.java:198)
+	at org.glassfish.jersey.server.ContainerFilteringStage$ResponseFilterStage.apply(ContainerFilteringStage.java:163)
+	at org.glassfish.jersey.process.internal.Stages.process(Stages.java:171)
+	at org.glassfish.jersey.server.ServerRuntime$Responder.processResponse(ServerRuntime.java:393)
+	at org.glassfish.jersey.server.ServerRuntime$Responder.process(ServerRuntime.java:441)
+	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:285)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:272)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:268)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:316)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:298)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:268)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:289)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:256)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:703)
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:416)
+	... 25 more
+Caused by: java.lang.NullPointerException: Cannot invoke "java.lang.Long.longValue()" because the return value of "javax.ws.rs.container.ContainerRequestContext.getProperty(String)" is null
+	at com.jersey.rest.api.filters.RequestLoggingFilter.filter(RequestLoggingFilter.java:25)
+	at org.glassfish.jersey.server.ContainerFilteringStage$ResponseFilterStage.apply(ContainerFilteringStage.java:196)
+	... 39 more
+2024-06-08 23:26:03 INFO  RequestLoggingFilter:19 - Request Start Time : 1717869363288
+2024-06-08 23:26:03 INFO  RequestLoggingFilter:27 - Request End Time : 1717869363697
+2024-06-08 23:26:03 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------409 ms
+2024-06-08 23:26:19 WARN  HttpChannel:689 - /howdy
+javax.servlet.ServletException: org.glassfish.jersey.server.internal.process.MappableException: java.lang.NullPointerException: Cannot invoke "java.lang.Long.longValue()" because the return value of "javax.ws.rs.container.ContainerRequestContext.getProperty(String)" is null
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:432)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:370)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:389)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:342)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:229)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:550)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1434)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:501)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1349)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:400)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:645)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:392)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:338)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:315)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:409)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.glassfish.jersey.server.internal.process.MappableException: java.lang.NullPointerException: Cannot invoke "java.lang.Long.longValue()" because the return value of "javax.ws.rs.container.ContainerRequestContext.getProperty(String)" is null
+	at org.glassfish.jersey.server.ContainerFilteringStage$ResponseFilterStage.apply(ContainerFilteringStage.java:198)
+	at org.glassfish.jersey.server.ContainerFilteringStage$ResponseFilterStage.apply(ContainerFilteringStage.java:163)
+	at org.glassfish.jersey.process.internal.Stages.process(Stages.java:171)
+	at org.glassfish.jersey.server.ServerRuntime$Responder.processResponse(ServerRuntime.java:393)
+	at org.glassfish.jersey.server.ServerRuntime$Responder.process(ServerRuntime.java:441)
+	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:285)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:272)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:268)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:316)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:298)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:268)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:289)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:256)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:703)
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:416)
+	... 30 more
+Caused by: java.lang.NullPointerException: Cannot invoke "java.lang.Long.longValue()" because the return value of "javax.ws.rs.container.ContainerRequestContext.getProperty(String)" is null
+	at com.jersey.rest.api.filters.RequestLoggingFilter.filter(RequestLoggingFilter.java:25)
+	at org.glassfish.jersey.server.ContainerFilteringStage$ResponseFilterStage.apply(ContainerFilteringStage.java:196)
+	... 44 more
+2024-06-08 23:26:19 WARN  HttpChannelState:787 - unhandled due to prior sendError
+javax.servlet.ServletException: org.glassfish.jersey.server.internal.process.MappableException: java.lang.NullPointerException: Cannot invoke "java.lang.Long.longValue()" because the return value of "javax.ws.rs.container.ContainerRequestContext.getProperty(String)" is null
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:432)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:370)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:389)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:342)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:229)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:550)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1434)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:501)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1349)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:400)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:645)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:392)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:338)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:315)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:409)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.glassfish.jersey.server.internal.process.MappableException: java.lang.NullPointerException: Cannot invoke "java.lang.Long.longValue()" because the return value of "javax.ws.rs.container.ContainerRequestContext.getProperty(String)" is null
+	at org.glassfish.jersey.server.ContainerFilteringStage$ResponseFilterStage.apply(ContainerFilteringStage.java:198)
+	at org.glassfish.jersey.server.ContainerFilteringStage$ResponseFilterStage.apply(ContainerFilteringStage.java:163)
+	at org.glassfish.jersey.process.internal.Stages.process(Stages.java:171)
+	at org.glassfish.jersey.server.ServerRuntime$Responder.processResponse(ServerRuntime.java:393)
+	at org.glassfish.jersey.server.ServerRuntime$Responder.process(ServerRuntime.java:441)
+	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:285)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:272)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:268)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:316)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:298)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:268)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:289)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:256)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:703)
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:416)
+	... 30 more
+Caused by: java.lang.NullPointerException: Cannot invoke "java.lang.Long.longValue()" because the return value of "javax.ws.rs.container.ContainerRequestContext.getProperty(String)" is null
+	at com.jersey.rest.api.filters.RequestLoggingFilter.filter(RequestLoggingFilter.java:25)
+	at org.glassfish.jersey.server.ContainerFilteringStage$ResponseFilterStage.apply(ContainerFilteringStage.java:196)
+	... 44 more
+2024-06-08 23:27:26 INFO  log:170 - Logging initialized @849ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-08 23:27:27 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 17.0.7+8-LTS-224
+2024-06-08 23:27:28 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@cdc3aae{/,null,AVAILABLE}
+2024-06-08 23:27:28 INFO  AbstractConnector:331 - Started ServerConnector@5702b3b1{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-08 23:27:28 INFO  Server:415 - Started @3187ms
+2024-06-08 23:32:36 INFO  log:170 - Logging initialized @895ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-08 23:32:37 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 17.0.7+8-LTS-224
+2024-06-08 23:32:38 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@5dcbb60{/,null,AVAILABLE}
+2024-06-08 23:32:38 INFO  AbstractConnector:331 - Started ServerConnector@5702b3b1{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-08 23:32:38 INFO  Server:415 - Started @2964ms
+2024-06-08 23:34:54 INFO  log:170 - Logging initialized @995ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-08 23:34:54 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 17.0.7+8-LTS-224
+2024-06-08 23:34:56 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@49f5c307{/,null,AVAILABLE}
+2024-06-08 23:34:56 INFO  AbstractConnector:331 - Started ServerConnector@5702b3b1{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-08 23:34:56 INFO  Server:415 - Started @3123ms
+2024-06-08 23:35:06 INFO  RequestLoggingFilter:27 - Request End Time : 1717869906910
+2024-06-08 23:35:06 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------1717869906910 ms
+2024-06-08 23:35:51 INFO  RequestLoggingFilter:27 - Request End Time : 1717869951297
+2024-06-08 23:35:51 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------1717869951297 ms
+2024-06-08 23:35:56 INFO  RequestLoggingFilter:27 - Request End Time : 1717869956260
+2024-06-08 23:35:56 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------1717869956260 ms
+2024-06-08 23:41:14 INFO  log:170 - Logging initialized @994ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-08 23:41:15 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 17.0.7+8-LTS-224
+2024-06-08 23:41:16 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@49f5c307{/,null,AVAILABLE}
+2024-06-08 23:41:16 INFO  AbstractConnector:331 - Started ServerConnector@5702b3b1{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-08 23:41:16 INFO  Server:415 - Started @3262ms
+2024-06-08 23:41:32 ERROR ForbiddenExceptionMapper:19 - ------------- Handle ForbiddenException ------------------
+2024-06-08 23:41:32 INFO  RequestLoggingFilter:27 - Request End Time : 1717870292084
+2024-06-08 23:41:32 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------1717870292084 ms
+2024-06-08 23:42:26 INFO  log:170 - Logging initialized @897ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-08 23:42:27 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 17.0.7+8-LTS-224
+2024-06-08 23:42:28 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@2f08c4b{/,null,AVAILABLE}
+2024-06-08 23:42:28 INFO  AbstractConnector:331 - Started ServerConnector@5702b3b1{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-08 23:42:28 INFO  Server:415 - Started @3050ms
+2024-06-08 23:42:57 INFO  log:170 - Logging initialized @842ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-08 23:42:58 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 17.0.7+8-LTS-224
+2024-06-08 23:43:00 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@21526f6c{/,null,AVAILABLE}
+2024-06-08 23:43:00 INFO  AbstractConnector:331 - Started ServerConnector@5702b3b1{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-08 23:43:00 INFO  Server:415 - Started @3601ms
+2024-06-08 23:43:25 ERROR ForbiddenExceptionMapper:19 - ------------- Handle ForbiddenException ------------------
+2024-06-08 23:43:25 INFO  RequestLoggingFilter:27 - Request End Time : 1717870405661
+2024-06-08 23:43:25 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------1717870405661 ms
+2024-06-08 23:47:02 INFO  log:170 - Logging initialized @1361ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-08 23:47:03 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 17.0.7+8-LTS-224
+2024-06-08 23:47:05 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@21526f6c{/,null,AVAILABLE}
+2024-06-08 23:47:05 INFO  AbstractConnector:331 - Started ServerConnector@5702b3b1{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-08 23:47:05 INFO  Server:415 - Started @3954ms
+2024-06-08 23:47:21 ERROR ForbiddenExceptionMapper:24 - ------------- Handle ForbiddenException ------------------
+2024-06-08 23:47:21 INFO  RequestLoggingFilter:27 - Request End Time : 1717870641473
+2024-06-08 23:47:21 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------1717870641473 ms
+2024-06-08 23:47:45 INFO  log:170 - Logging initialized @1020ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-08 23:47:46 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 17.0.7+8-LTS-224
+2024-06-08 23:47:48 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@21526f6c{/,null,AVAILABLE}
+2024-06-08 23:47:48 INFO  AbstractConnector:331 - Started ServerConnector@5702b3b1{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-08 23:47:48 INFO  Server:415 - Started @4042ms
+2024-06-08 23:47:53 ERROR ForbiddenExceptionMapper:24 - ------------- Handle ForbiddenException ------------------
+2024-06-08 23:47:53 INFO  RequestLoggingFilter:27 - Request End Time : 1717870673335
+2024-06-08 23:47:53 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------1717870673335 ms
+2024-06-08 23:49:08 ERROR ForbiddenExceptionMapper:24 - ------------- Handle ForbiddenException ------------------
+2024-06-08 23:49:08 INFO  RequestLoggingFilter:27 - Request End Time : 1717870748308
+2024-06-08 23:49:08 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------1717870748308 ms
+2024-06-08 23:49:10 ERROR ForbiddenExceptionMapper:24 - ------------- Handle ForbiddenException ------------------
+2024-06-08 23:49:10 INFO  RequestLoggingFilter:27 - Request End Time : 1717870750641
+2024-06-08 23:49:10 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------1717870750641 ms
+2024-06-08 23:49:11 ERROR ForbiddenExceptionMapper:24 - ------------- Handle ForbiddenException ------------------
+2024-06-08 23:49:11 INFO  RequestLoggingFilter:27 - Request End Time : 1717870751533
+2024-06-08 23:49:11 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------1717870751533 ms
+2024-06-08 23:49:14 ERROR ForbiddenExceptionMapper:24 - ------------- Handle ForbiddenException ------------------
+2024-06-08 23:49:14 INFO  RequestLoggingFilter:27 - Request End Time : 1717870754050
+2024-06-08 23:49:14 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------1717870754050 ms
+2024-06-08 23:49:15 ERROR ForbiddenExceptionMapper:24 - ------------- Handle ForbiddenException ------------------
+2024-06-08 23:49:15 INFO  RequestLoggingFilter:27 - Request End Time : 1717870755150
+2024-06-08 23:49:15 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------1717870755150 ms
+2024-06-08 23:49:16 ERROR ForbiddenExceptionMapper:24 - ------------- Handle ForbiddenException ------------------
+2024-06-08 23:49:16 INFO  RequestLoggingFilter:27 - Request End Time : 1717870756061
+2024-06-08 23:49:16 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------1717870756061 ms
+2024-06-08 23:49:16 ERROR ForbiddenExceptionMapper:24 - ------------- Handle ForbiddenException ------------------
+2024-06-08 23:49:16 INFO  RequestLoggingFilter:27 - Request End Time : 1717870756739
+2024-06-08 23:49:16 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------1717870756739 ms
+2024-06-08 23:49:17 ERROR ForbiddenExceptionMapper:24 - ------------- Handle ForbiddenException ------------------
+2024-06-08 23:49:17 INFO  RequestLoggingFilter:27 - Request End Time : 1717870757707
+2024-06-08 23:49:17 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------1717870757707 ms
+2024-06-08 23:49:18 ERROR ForbiddenExceptionMapper:24 - ------------- Handle ForbiddenException ------------------
+2024-06-08 23:49:18 INFO  RequestLoggingFilter:27 - Request End Time : 1717870758473
+2024-06-08 23:49:18 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------1717870758473 ms
+2024-06-08 23:49:19 ERROR ForbiddenExceptionMapper:24 - ------------- Handle ForbiddenException ------------------
+2024-06-08 23:49:19 INFO  RequestLoggingFilter:27 - Request End Time : 1717870759389
+2024-06-08 23:49:19 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------1717870759389 ms
+2024-06-08 23:49:20 ERROR ForbiddenExceptionMapper:24 - ------------- Handle ForbiddenException ------------------
+2024-06-08 23:49:20 INFO  RequestLoggingFilter:27 - Request End Time : 1717870760202
+2024-06-08 23:49:20 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------1717870760202 ms
+2024-06-08 23:54:34 INFO  log:170 - Logging initialized @1015ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-08 23:54:35 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 17.0.7+8-LTS-224
+2024-06-08 23:54:38 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@1133ec6e{/,null,AVAILABLE}
+2024-06-08 23:54:38 INFO  AbstractConnector:331 - Started ServerConnector@ff5b51f{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-08 23:54:38 INFO  Server:415 - Started @4576ms
+2024-06-08 23:54:49 INFO  RequestLoggingFilter:21 - Request Start Time : 1717871089646
+2024-06-08 23:54:49 INFO  RequestLoggingFilter:27 - Request End Time : 1717871089664
+2024-06-08 23:54:49 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------1717871089664 ms
+2024-06-08 23:55:01 INFO  RequestLoggingFilter:21 - Request Start Time : 1717871101242
+2024-06-08 23:55:01 INFO  RequestLoggingFilter:27 - Request End Time : 1717871101243
+2024-06-08 23:55:01 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------1717871101243 ms
+2024-06-08 23:55:27 INFO  RequestLoggingFilter:21 - Request Start Time : 1717871127870
+2024-06-08 23:55:27 INFO  RequestLoggingFilter:27 - Request End Time : 1717871127871
+2024-06-08 23:55:27 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------1717871127871 ms
+2024-06-08 23:55:58 ERROR ForbiddenExceptionMapper:24 - ------------- Handle ForbiddenException ------------------
+2024-06-08 23:55:58 INFO  RequestLoggingFilter:27 - Request End Time : 1717871158636
+2024-06-08 23:55:58 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------1717871158636 ms
+2024-06-09 00:36:26 INFO  log:170 - Logging initialized @939ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-09 00:36:26 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 17.0.7+8-LTS-224
+2024-06-09 00:36:28 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@2fd1731c{/,null,AVAILABLE}
+2024-06-09 00:36:28 INFO  AbstractConnector:331 - Started ServerConnector@ff5b51f{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-09 00:36:28 INFO  Server:415 - Started @3193ms
+2024-06-09 00:37:57 INFO  RequestLoggingFilter:21 - Request Start Time : 1717873677326
+2024-06-09 00:38:01 INFO  RequestLoggingFilter:27 - Request End Time : 1717873681489
+2024-06-09 00:38:01 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------1717873681489 ms
+2024-06-09 00:38:57 INFO  log:170 - Logging initialized @934ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-09 00:38:58 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 17.0.7+8-LTS-224
+2024-06-09 00:39:00 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@59fc684e{/,null,AVAILABLE}
+2024-06-09 00:39:00 INFO  AbstractConnector:331 - Started ServerConnector@ff5b51f{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-09 00:39:00 INFO  Server:415 - Started @3456ms
+2024-06-09 00:39:02 INFO  RequestLoggingFilter:21 - Request Start Time : 1717873742593
+2024-06-09 00:39:06 INFO  RequestLoggingFilter:27 - Request End Time : 1717873746451
+2024-06-09 00:39:06 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------1717873746451 ms
+2024-06-09 00:40:22 INFO  log:170 - Logging initialized @1509ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-09 00:40:22 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 17.0.7+8-LTS-224
+2024-06-09 00:40:25 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@59fc684e{/,null,AVAILABLE}
+2024-06-09 00:40:25 INFO  AbstractConnector:331 - Started ServerConnector@ff5b51f{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-09 00:40:25 INFO  Server:415 - Started @4775ms
+2024-06-09 00:40:30 INFO  RequestLoggingFilter:21 - Request Start Time : 1717873830624
+2024-06-09 00:40:33 ERROR ResourceNotFoundExceptionMapper:16 - ----------- Handle ResourceNotFoundException ------------
+2024-06-09 00:40:33 INFO  RequestLoggingFilter:27 - Request End Time : 1717873833841
+2024-06-09 00:40:33 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------1717873833841 ms
+2024-06-09 00:58:45 INFO  log:170 - Logging initialized @878ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-09 00:58:45 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 17.0.7+8-LTS-224
+2024-06-09 00:58:47 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@5ae81e1{/,null,AVAILABLE}
+2024-06-09 00:58:47 INFO  AbstractConnector:331 - Started ServerConnector@ff5b51f{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-09 00:58:47 INFO  Server:415 - Started @3324ms
+2024-06-09 00:58:50 INFO  RequestLoggingFilter:21 - Request Start Time : 1717874930652
+2024-06-09 00:58:53 ERROR ResourceNotFoundExceptionMapper:22 - ----------- Handle ResourceNotFoundException ------------
+2024-06-09 00:58:53 INFO  RequestLoggingFilter:27 - Request End Time : 1717874933885
+2024-06-09 00:58:53 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------1717874933885 ms
+2024-06-09 00:59:03 INFO  RequestLoggingFilter:21 - Request Start Time : 1717874943589
+2024-06-09 00:59:03 ERROR GlobalExceptionMapper:23 - ---------------- Handle Global Exception ----------------
+2024-06-09 00:59:03 INFO  RequestLoggingFilter:27 - Request End Time : 1717874943727
+2024-06-09 00:59:03 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------1717874943727 ms
+2024-06-09 01:00:48 INFO  log:170 - Logging initialized @928ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-09 01:00:48 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 17.0.7+8-LTS-224
+2024-06-09 01:00:50 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@5ae76500{/,null,AVAILABLE}
+2024-06-09 01:00:50 INFO  AbstractConnector:331 - Started ServerConnector@ff5b51f{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-09 01:00:50 INFO  Server:415 - Started @3731ms
+2024-06-09 01:00:54 INFO  RequestLoggingFilter:21 - Request Start Time : 1717875054742
+2024-06-09 01:00:58 ERROR GlobalExceptionMapper:23 - ---------------- Handle Global Exception ----------------
+2024-06-09 01:00:58 INFO  RequestLoggingFilter:27 - Request End Time : 1717875058131
+2024-06-09 01:00:58 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------1717875058131 ms
+2024-06-09 01:02:19 INFO  log:170 - Logging initialized @880ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-09 01:02:19 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 17.0.7+8-LTS-224
+2024-06-09 01:02:21 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@5ae76500{/,null,AVAILABLE}
+2024-06-09 01:02:21 INFO  AbstractConnector:331 - Started ServerConnector@ff5b51f{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-09 01:02:21 INFO  Server:415 - Started @3024ms
+2024-06-09 01:02:39 INFO  RequestLoggingFilter:21 - Request Start Time : 1717875159156
+2024-06-09 01:02:43 ERROR GlobalExceptionMapper:23 - ---------------- Handle Global Exception ----------------
+2024-06-09 01:02:43 INFO  RequestLoggingFilter:27 - Request End Time : 1717875163085
+2024-06-09 01:02:43 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------1717875163085 ms
+2024-06-09 01:04:25 INFO  log:170 - Logging initialized @825ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-09 01:04:25 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 17.0.7+8-LTS-224
+2024-06-09 01:04:27 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@5ae76500{/,null,AVAILABLE}
+2024-06-09 01:04:27 INFO  AbstractConnector:331 - Started ServerConnector@ff5b51f{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-09 01:04:27 INFO  Server:415 - Started @3381ms
+2024-06-09 01:04:40 INFO  RequestLoggingFilter:21 - Request Start Time : 1717875280221
+2024-06-09 01:04:43 ERROR BadCredentialsExceptionMapper:22 - ------------ Handle BadCredentialsException ----------------
+2024-06-09 01:04:43 INFO  RequestLoggingFilter:27 - Request End Time : 1717875283653
+2024-06-09 01:04:43 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------1717875283653 ms
+2024-06-09 01:06:31 INFO  RequestLoggingFilter:21 - Request Start Time : 1717875391823
+2024-06-09 01:06:31 ERROR BadCredentialsExceptionMapper:22 - ------------ Handle BadCredentialsException ----------------
+2024-06-09 01:06:31 INFO  RequestLoggingFilter:27 - Request End Time : 1717875391994
+2024-06-09 01:06:31 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------1717875391994 ms
+2024-06-09 01:06:38 INFO  RequestLoggingFilter:21 - Request Start Time : 1717875398624
+2024-06-09 01:06:38 ERROR BadCredentialsExceptionMapper:22 - ------------ Handle BadCredentialsException ----------------
+2024-06-09 01:06:38 INFO  RequestLoggingFilter:27 - Request End Time : 1717875398770
+2024-06-09 01:06:38 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------1717875398770 ms
+2024-06-09 01:06:53 INFO  RequestLoggingFilter:21 - Request Start Time : 1717875413104
+2024-06-09 01:06:53 ERROR BadCredentialsExceptionMapper:22 - ------------ Handle BadCredentialsException ----------------
+2024-06-09 01:06:53 INFO  RequestLoggingFilter:27 - Request End Time : 1717875413227
+2024-06-09 01:06:53 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------1717875413227 ms
+2024-06-09 01:06:56 INFO  RequestLoggingFilter:21 - Request Start Time : 1717875416466
+2024-06-09 01:06:56 INFO  RequestLoggingFilter:27 - Request End Time : 1717875416759
+2024-06-09 01:06:56 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------1717875416759 ms
+2024-06-09 01:22:42 INFO  log:170 - Logging initialized @1318ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-09 01:22:43 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 17.0.7+8-LTS-224
+2024-06-09 01:22:46 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@24f360b2{/,null,AVAILABLE}
+2024-06-09 01:22:46 INFO  AbstractConnector:331 - Started ServerConnector@ff5b51f{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-09 01:22:46 INFO  Server:415 - Started @5643ms
+2024-06-09 01:22:51 INFO  RequestLoggingFilter:21 - Request Start Time : 1717876371617
+2024-06-09 01:22:57 ERROR ResourceConflictExceptionMapper:22 - ------------------ Handle ResourceConflictExceptionMapper -------------------
+2024-06-09 01:22:57 INFO  RequestLoggingFilter:27 - Request End Time : 1717876377080
+2024-06-09 01:22:57 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------1717876377080 ms
+2024-06-09 01:23:08 INFO  RequestLoggingFilter:21 - Request Start Time : 1717876388868
+2024-06-09 01:23:08 ERROR ResourceConflictExceptionMapper:22 - ------------------ Handle ResourceConflictExceptionMapper -------------------
+2024-06-09 01:23:08 INFO  RequestLoggingFilter:27 - Request End Time : 1717876388970
+2024-06-09 01:23:08 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------1717876388970 ms
+2024-06-09 01:23:17 INFO  RequestLoggingFilter:21 - Request Start Time : 1717876397054
+2024-06-09 01:23:17 ERROR ResourceConflictExceptionMapper:22 - ------------------ Handle ResourceConflictExceptionMapper -------------------
+2024-06-09 01:23:17 INFO  RequestLoggingFilter:27 - Request End Time : 1717876397067
+2024-06-09 01:23:17 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------1717876397067 ms
+2024-06-09 01:27:55 INFO  RequestLoggingFilter:27 - Request End Time : 1717876675741
+2024-06-09 01:27:55 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------1717876675741 ms
+2024-06-09 01:27:58 INFO  RequestLoggingFilter:27 - Request End Time : 1717876678883
+2024-06-09 01:27:58 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------1717876678883 ms
+2024-06-09 01:28:47 INFO  log:170 - Logging initialized @1237ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-09 01:28:47 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 17.0.7+8-LTS-224
+2024-06-09 01:28:50 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@24f360b2{/,null,AVAILABLE}
+2024-06-09 01:28:50 INFO  AbstractConnector:331 - Started ServerConnector@ff5b51f{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-09 01:28:50 INFO  Server:415 - Started @4343ms
+2024-06-09 01:28:55 INFO  RequestLoggingFilter:21 - Request Start Time : 1717876735687
+2024-06-09 01:28:59 ERROR ResourceConflictExceptionMapper:22 - ------------------ Handle ResourceConflictExceptionMapper -------------------
+2024-06-09 01:28:59 INFO  RequestLoggingFilter:27 - Request End Time : 1717876739509
+2024-06-09 01:28:59 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------1717876739509 ms
+2024-06-09 01:29:06 INFO  RequestLoggingFilter:21 - Request Start Time : 1717876746667
+2024-06-09 01:29:07 INFO  RequestLoggingFilter:27 - Request End Time : 1717876747044
+2024-06-09 01:29:07 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------1717876747044 ms
+2024-06-09 01:29:19 INFO  RequestLoggingFilter:21 - Request Start Time : 1717876759536
+2024-06-09 01:29:19 INFO  UserController:29 - ------- Current User Request --------UserDTO(id=4bac3ec9-8ebf-41b5-90cb-55ee1502b11a, firstName=Pritam, lastName=Ray, email=ray@gmail.com, username=admin, password=$2a$10$4QEiNgRuPeYxC47KhqIaRe4vp63udbVhoGI0qo/gDz3LZAbTQW2r., active=true, authorities=[ADMIN, USER])
+2024-06-09 01:29:19 INFO  RequestLoggingFilter:27 - Request End Time : 1717876759569
+2024-06-09 01:29:19 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------1717876759569 ms
+2024-06-09 01:29:41 INFO  RequestLoggingFilter:21 - Request Start Time : 1717876781068
+2024-06-09 01:29:41 INFO  UserController:29 - ------- Current User Request --------UserDTO(id=4bac3ec9-8ebf-41b5-90cb-55ee1502b11a, firstName=Pritam, lastName=Ray, email=ray@gmail.com, username=admin, password=$2a$10$4QEiNgRuPeYxC47KhqIaRe4vp63udbVhoGI0qo/gDz3LZAbTQW2r., active=true, authorities=[ADMIN, USER])
+2024-06-09 01:29:41 INFO  RequestLoggingFilter:27 - Request End Time : 1717876781070
+2024-06-09 01:29:41 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------1717876781070 ms
+2024-06-09 01:29:42 INFO  RequestLoggingFilter:21 - Request Start Time : 1717876782115
+2024-06-09 01:29:42 INFO  UserController:29 - ------- Current User Request --------UserDTO(id=4bac3ec9-8ebf-41b5-90cb-55ee1502b11a, firstName=Pritam, lastName=Ray, email=ray@gmail.com, username=admin, password=$2a$10$4QEiNgRuPeYxC47KhqIaRe4vp63udbVhoGI0qo/gDz3LZAbTQW2r., active=true, authorities=[ADMIN, USER])
+2024-06-09 01:29:42 INFO  RequestLoggingFilter:27 - Request End Time : 1717876782118
+2024-06-09 01:29:42 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------1717876782118 ms
+2024-06-09 01:29:44 INFO  RequestLoggingFilter:21 - Request Start Time : 1717876784220
+2024-06-09 01:29:44 INFO  UserController:29 - ------- Current User Request --------UserDTO(id=4bac3ec9-8ebf-41b5-90cb-55ee1502b11a, firstName=Pritam, lastName=Ray, email=ray@gmail.com, username=admin, password=$2a$10$4QEiNgRuPeYxC47KhqIaRe4vp63udbVhoGI0qo/gDz3LZAbTQW2r., active=true, authorities=[ADMIN, USER])
+2024-06-09 01:29:44 INFO  RequestLoggingFilter:27 - Request End Time : 1717876784223
+2024-06-09 01:29:44 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------1717876784223 ms
+2024-06-09 01:29:45 INFO  RequestLoggingFilter:21 - Request Start Time : 1717876785079
+2024-06-09 01:29:45 INFO  UserController:29 - ------- Current User Request --------UserDTO(id=4bac3ec9-8ebf-41b5-90cb-55ee1502b11a, firstName=Pritam, lastName=Ray, email=ray@gmail.com, username=admin, password=$2a$10$4QEiNgRuPeYxC47KhqIaRe4vp63udbVhoGI0qo/gDz3LZAbTQW2r., active=true, authorities=[ADMIN, USER])
+2024-06-09 01:29:45 INFO  RequestLoggingFilter:27 - Request End Time : 1717876785082
+2024-06-09 01:29:45 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------1717876785082 ms
+2024-06-09 01:29:49 INFO  RequestLoggingFilter:21 - Request Start Time : 1717876789128
+2024-06-09 01:29:49 INFO  UserController:29 - ------- Current User Request --------UserDTO(id=4bac3ec9-8ebf-41b5-90cb-55ee1502b11a, firstName=Pritam, lastName=Ray, email=ray@gmail.com, username=admin, password=$2a$10$4QEiNgRuPeYxC47KhqIaRe4vp63udbVhoGI0qo/gDz3LZAbTQW2r., active=true, authorities=[ADMIN, USER])
+2024-06-09 01:29:49 INFO  RequestLoggingFilter:27 - Request End Time : 1717876789129
+2024-06-09 01:29:49 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------1717876789129 ms
+2024-06-09 01:29:49 INFO  RequestLoggingFilter:21 - Request Start Time : 1717876789472
+2024-06-09 01:29:49 INFO  UserController:29 - ------- Current User Request --------UserDTO(id=4bac3ec9-8ebf-41b5-90cb-55ee1502b11a, firstName=Pritam, lastName=Ray, email=ray@gmail.com, username=admin, password=$2a$10$4QEiNgRuPeYxC47KhqIaRe4vp63udbVhoGI0qo/gDz3LZAbTQW2r., active=true, authorities=[ADMIN, USER])
+2024-06-09 01:29:49 INFO  RequestLoggingFilter:27 - Request End Time : 1717876789474
+2024-06-09 01:29:49 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------1717876789474 ms
+2024-06-09 01:29:49 INFO  RequestLoggingFilter:21 - Request Start Time : 1717876789931
+2024-06-09 01:29:49 INFO  UserController:29 - ------- Current User Request --------UserDTO(id=4bac3ec9-8ebf-41b5-90cb-55ee1502b11a, firstName=Pritam, lastName=Ray, email=ray@gmail.com, username=admin, password=$2a$10$4QEiNgRuPeYxC47KhqIaRe4vp63udbVhoGI0qo/gDz3LZAbTQW2r., active=true, authorities=[ADMIN, USER])
+2024-06-09 01:29:49 INFO  RequestLoggingFilter:27 - Request End Time : 1717876789939
+2024-06-09 01:29:49 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------1717876789939 ms
+2024-06-09 01:32:52 INFO  log:170 - Logging initialized @872ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-09 01:32:52 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 17.0.7+8-LTS-224
+2024-06-09 01:32:55 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@24f360b2{/,null,AVAILABLE}
+2024-06-09 01:32:55 INFO  AbstractConnector:331 - Started ServerConnector@ff5b51f{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-09 01:32:55 INFO  Server:415 - Started @4312ms
+2024-06-09 01:32:58 INFO  RequestLoggingFilter:21 - Request Start Time : 1717876978892
+2024-06-09 01:32:59 INFO  AuthenticationController:38 - LoginUser Request : UserDTO(id=null, firstName=Pritam, lastName=Ray, email=ray@gmail.com, username=admin, password=password, active=true, authorities=[USER, ADMIN])
+2024-06-09 01:33:00 INFO  RequestLoggingFilter:21 - Request Start Time : 1717876980293
+2024-06-09 01:33:00 INFO  UserController:28 - ------- Current User Request --------UserDTO(id=4bac3ec9-8ebf-41b5-90cb-55ee1502b11a, firstName=Pritam, lastName=Ray, email=ray@gmail.com, username=admin, password=$2a$10$4QEiNgRuPeYxC47KhqIaRe4vp63udbVhoGI0qo/gDz3LZAbTQW2r., active=true, authorities=[USER, ADMIN])
+2024-06-09 01:33:00 INFO  RequestLoggingFilter:27 - Request End Time : 1717876980316
+2024-06-09 01:33:00 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------1717876980316 ms
+2024-06-09 01:33:00 INFO  RequestLoggingFilter:27 - Request End Time : 1717876980812
+2024-06-09 01:33:00 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------1717876980812 ms
+2024-06-09 01:34:03 INFO  RequestLoggingFilter:21 - Request Start Time : 1717877043618
+2024-06-09 01:34:03 INFO  AuthenticationController:38 - LoginUser Request : UserDTO(id=null, firstName=Pritam, lastName=Ray, email=ray@gmail.com, username=admin, password=password, active=true, authorities=[USER, ADMIN])
+2024-06-09 01:34:03 INFO  RequestLoggingFilter:27 - Request End Time : 1717877043759
+2024-06-09 01:34:03 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------1717877043759 ms
+2024-06-09 10:15:07 INFO  log:170 - Logging initialized @2154ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-09 10:15:08 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 11.0.18+9-LTS-195
+2024-06-09 10:15:10 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@907f2b7{/,null,AVAILABLE}
+2024-06-09 10:15:10 INFO  AbstractConnector:331 - Started ServerConnector@63021689{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-09 10:15:10 INFO  Server:415 - Started @5580ms
+2024-06-09 10:16:11 INFO  RequestLoggingFilter:21 - Request Start Time : 1717908371964
+2024-06-09 10:16:12 INFO  AuthenticationController:38 - LoginUser Request : UserDTO(id=null, firstName=Pritam, lastName=Ray, email=ray@gmail.com, username=admin, password=password, active=true, authorities=[USER, ADMIN])
+2024-06-09 10:16:16 INFO  RequestLoggingFilter:27 - Request End Time : 1717908376636
+2024-06-09 10:16:16 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------1717908376636 ms
+2024-06-09 10:16:36 INFO  RequestLoggingFilter:21 - Request Start Time : 1717908396262
+2024-06-09 10:16:36 INFO  AuthenticationController:38 - LoginUser Request : UserDTO(id=null, firstName=Pritam, lastName=Ray, email=ray@gmail.com, username=admin, password=password, active=true, authorities=[USER, ADMIN])
+2024-06-09 10:16:36 INFO  RequestLoggingFilter:27 - Request End Time : 1717908396439
+2024-06-09 10:16:36 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------1717908396439 ms
+2024-06-09 10:16:47 INFO  RequestLoggingFilter:21 - Request Start Time : 1717908407896
+2024-06-09 10:16:47 INFO  AuthenticationController:38 - LoginUser Request : UserDTO(id=null, firstName=Pritam, lastName=Ray, email=ray@gmail.com, username=admin, password=password, active=true, authorities=[USER, ADMIN])
+2024-06-09 10:16:48 INFO  RequestLoggingFilter:27 - Request End Time : 1717908408013
+2024-06-09 10:16:48 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------1717908408013 ms
+2024-06-09 10:16:49 INFO  RequestLoggingFilter:21 - Request Start Time : 1717908409005
+2024-06-09 10:16:49 INFO  AuthenticationController:38 - LoginUser Request : UserDTO(id=null, firstName=Pritam, lastName=Ray, email=ray@gmail.com, username=admin, password=password, active=true, authorities=[USER, ADMIN])
+2024-06-09 10:16:49 INFO  RequestLoggingFilter:27 - Request End Time : 1717908409131
+2024-06-09 10:16:49 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------1717908409131 ms
+2024-06-09 10:16:50 INFO  RequestLoggingFilter:21 - Request Start Time : 1717908410244
+2024-06-09 10:16:50 INFO  AuthenticationController:38 - LoginUser Request : UserDTO(id=null, firstName=Pritam, lastName=Ray, email=ray@gmail.com, username=admin, password=password, active=true, authorities=[USER, ADMIN])
+2024-06-09 10:16:50 INFO  RequestLoggingFilter:27 - Request End Time : 1717908410438
+2024-06-09 10:16:50 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------1717908410438 ms
+2024-06-09 10:16:50 INFO  RequestLoggingFilter:21 - Request Start Time : 1717908410805
+2024-06-09 10:16:50 INFO  AuthenticationController:38 - LoginUser Request : UserDTO(id=null, firstName=Pritam, lastName=Ray, email=ray@gmail.com, username=admin, password=password, active=true, authorities=[USER, ADMIN])
+2024-06-09 10:16:50 INFO  RequestLoggingFilter:27 - Request End Time : 1717908410932
+2024-06-09 10:16:50 INFO  RequestLoggingFilter:29 - ----------- Request Duration: -------------1717908410932 ms
+2024-06-09 10:17:35 INFO  log:170 - Logging initialized @1454ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-09 10:17:36 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 11.0.18+9-LTS-195
+2024-06-09 10:17:38 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@907f2b7{/,null,AVAILABLE}
+2024-06-09 10:17:38 INFO  AbstractConnector:331 - Started ServerConnector@63021689{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-09 10:17:38 INFO  Server:415 - Started @4701ms
+2024-06-09 10:17:42 INFO  RequestLoggingFilter:20 - Request Start Time : 1717908462722
+2024-06-09 10:17:43 INFO  AuthenticationController:38 - LoginUser Request : UserDTO(id=null, firstName=Pritam, lastName=Ray, email=ray@gmail.com, username=admin, password=password, active=true, authorities=[ADMIN, USER])
+2024-06-09 10:17:47 INFO  RequestLoggingFilter:26 - Request End Time : 1717908467896
+2024-06-09 10:17:47 INFO  RequestLoggingFilter:28 - ----------- Request Duration: -------------1717908467896 ms
+2024-06-09 10:18:05 INFO  RequestLoggingFilter:20 - Request Start Time : 1717908485697
+2024-06-09 10:18:05 INFO  AuthenticationController:38 - LoginUser Request : UserDTO(id=null, firstName=Pritam, lastName=Ray, email=ray@gmail.com, username=admin, password=password1, active=true, authorities=[ADMIN, USER])
+2024-06-09 10:18:05 ERROR BadCredentialsExceptionMapper:22 - ------------ Handle BadCredentialsException ----------------
+2024-06-09 10:18:05 INFO  RequestLoggingFilter:26 - Request End Time : 1717908485888
+2024-06-09 10:18:05 INFO  RequestLoggingFilter:28 - ----------- Request Duration: -------------1717908485888 ms
+2024-06-09 10:18:11 INFO  RequestLoggingFilter:20 - Request Start Time : 1717908491048
+2024-06-09 10:18:11 INFO  AuthenticationController:38 - LoginUser Request : UserDTO(id=null, firstName=Pritam, lastName=Ray, email=ray@gmail.com, username=admin1, password=password1, active=true, authorities=[ADMIN, USER])
+2024-06-09 10:18:11 ERROR ResourceNotFoundExceptionMapper:22 - ----------- Handle ResourceNotFoundException ------------
+2024-06-09 10:18:11 INFO  RequestLoggingFilter:26 - Request End Time : 1717908491070
+2024-06-09 10:18:11 INFO  RequestLoggingFilter:28 - ----------- Request Duration: -------------1717908491070 ms
+2024-06-09 10:23:45 INFO  log:170 - Logging initialized @1542ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-09 10:23:46 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 11.0.18+9-LTS-195
+2024-06-09 10:23:48 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@261d8190{/,null,AVAILABLE}
+2024-06-09 10:23:48 INFO  AbstractConnector:331 - Started ServerConnector@63021689{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-09 10:23:48 INFO  Server:415 - Started @4628ms
+2024-06-09 10:23:51 INFO  RequestLoggingFilter:20 - Request Start Time : 1717908831095
+2024-06-09 10:23:51 INFO  RequestLoggingFilter:26 - Request End Time : 1717908831250
+2024-06-09 10:23:51 INFO  RequestLoggingFilter:28 - ----------- Request Duration: -------------1717908831250 ms
+2024-06-09 10:24:04 INFO  RequestLoggingFilter:20 - Request Start Time : 1717908844397
+2024-06-09 10:24:04 INFO  AuthenticationController:39 - LoginUser Request : JwtRequestDTO(username=admin1, password=password1)
+2024-06-09 10:24:08 ERROR ResourceNotFoundExceptionMapper:22 - ----------- Handle ResourceNotFoundException ------------
+2024-06-09 10:24:08 INFO  RequestLoggingFilter:26 - Request End Time : 1717908848077
+2024-06-09 10:24:08 INFO  RequestLoggingFilter:28 - ----------- Request Duration: -------------1717908848077 ms
+2024-06-09 10:24:15 INFO  RequestLoggingFilter:20 - Request Start Time : 1717908855695
+2024-06-09 10:24:15 INFO  AuthenticationController:39 - LoginUser Request : JwtRequestDTO(username=admin, password=password1)
+2024-06-09 10:24:16 ERROR BadCredentialsExceptionMapper:22 - ------------ Handle BadCredentialsException ----------------
+2024-06-09 10:24:16 INFO  RequestLoggingFilter:26 - Request End Time : 1717908856017
+2024-06-09 10:24:16 INFO  RequestLoggingFilter:28 - ----------- Request Duration: -------------1717908856017 ms
+2024-06-09 10:24:19 INFO  RequestLoggingFilter:20 - Request Start Time : 1717908859836
+2024-06-09 10:24:19 INFO  AuthenticationController:39 - LoginUser Request : JwtRequestDTO(username=admin, password=password)
+2024-06-09 10:24:20 INFO  RequestLoggingFilter:26 - Request End Time : 1717908860094
+2024-06-09 10:24:20 INFO  RequestLoggingFilter:28 - ----------- Request Duration: -------------1717908860094 ms
+2024-06-09 10:24:22 INFO  RequestLoggingFilter:20 - Request Start Time : 1717908862516
+2024-06-09 10:24:22 INFO  AuthenticationController:39 - LoginUser Request : JwtRequestDTO(username=admin, password=password)
+2024-06-09 10:24:22 INFO  RequestLoggingFilter:26 - Request End Time : 1717908862662
+2024-06-09 10:24:22 INFO  RequestLoggingFilter:28 - ----------- Request Duration: -------------1717908862662 ms
+2024-06-09 10:24:23 INFO  RequestLoggingFilter:20 - Request Start Time : 1717908863656
+2024-06-09 10:24:23 INFO  AuthenticationController:39 - LoginUser Request : JwtRequestDTO(username=admin, password=password)
+2024-06-09 10:24:23 INFO  RequestLoggingFilter:26 - Request End Time : 1717908863778
+2024-06-09 10:24:23 INFO  RequestLoggingFilter:28 - ----------- Request Duration: -------------1717908863778 ms
+2024-06-09 10:24:24 INFO  RequestLoggingFilter:20 - Request Start Time : 1717908864712
+2024-06-09 10:24:24 INFO  AuthenticationController:39 - LoginUser Request : JwtRequestDTO(username=admin, password=password)
+2024-06-09 10:24:25 INFO  RequestLoggingFilter:26 - Request End Time : 1717908865097
+2024-06-09 10:24:25 INFO  RequestLoggingFilter:28 - ----------- Request Duration: -------------1717908865097 ms
+2024-06-09 10:24:26 INFO  RequestLoggingFilter:20 - Request Start Time : 1717908866330
+2024-06-09 10:24:26 INFO  AuthenticationController:39 - LoginUser Request : JwtRequestDTO(username=admin, password=password)
+2024-06-09 10:24:26 INFO  RequestLoggingFilter:26 - Request End Time : 1717908866450
+2024-06-09 10:24:26 INFO  RequestLoggingFilter:28 - ----------- Request Duration: -------------1717908866450 ms
+2024-06-09 10:24:27 INFO  RequestLoggingFilter:20 - Request Start Time : 1717908867609
+2024-06-09 10:24:27 INFO  AuthenticationController:39 - LoginUser Request : JwtRequestDTO(username=admin, password=password)
+2024-06-09 10:24:27 INFO  RequestLoggingFilter:26 - Request End Time : 1717908867727
+2024-06-09 10:24:27 INFO  RequestLoggingFilter:28 - ----------- Request Duration: -------------1717908867727 ms
+2024-06-09 10:24:28 INFO  RequestLoggingFilter:20 - Request Start Time : 1717908868963
+2024-06-09 10:24:28 INFO  AuthenticationController:39 - LoginUser Request : JwtRequestDTO(username=admin, password=password)
+2024-06-09 10:24:29 INFO  RequestLoggingFilter:26 - Request End Time : 1717908869160
+2024-06-09 10:24:29 INFO  RequestLoggingFilter:28 - ----------- Request Duration: -------------1717908869160 ms
+2024-06-09 10:24:31 INFO  RequestLoggingFilter:20 - Request Start Time : 1717908871323
+2024-06-09 10:24:31 INFO  AuthenticationController:39 - LoginUser Request : JwtRequestDTO(username=admin, password=password)
+2024-06-09 10:24:31 INFO  RequestLoggingFilter:26 - Request End Time : 1717908871450
+2024-06-09 10:24:31 INFO  RequestLoggingFilter:28 - ----------- Request Duration: -------------1717908871450 ms
+2024-06-09 10:24:34 INFO  RequestLoggingFilter:20 - Request Start Time : 1717908874716
+2024-06-09 10:24:34 INFO  AuthenticationController:39 - LoginUser Request : JwtRequestDTO(username=admin, password=password)
+2024-06-09 10:24:34 INFO  RequestLoggingFilter:26 - Request End Time : 1717908874829
+2024-06-09 10:24:34 INFO  RequestLoggingFilter:28 - ----------- Request Duration: -------------1717908874829 ms
+2024-06-09 10:24:49 INFO  RequestLoggingFilter:20 - Request Start Time : 1717908889338
+2024-06-09 10:24:49 INFO  AuthenticationController:39 - LoginUser Request : JwtRequestDTO(username=admin, password=password)
+2024-06-09 10:24:49 INFO  RequestLoggingFilter:26 - Request End Time : 1717908889452
+2024-06-09 10:24:49 INFO  RequestLoggingFilter:28 - ----------- Request Duration: -------------1717908889452 ms
+2024-06-09 10:24:51 INFO  RequestLoggingFilter:20 - Request Start Time : 1717908891752
+2024-06-09 10:24:51 INFO  AuthenticationController:39 - LoginUser Request : JwtRequestDTO(username=admin, password=password)
+2024-06-09 10:24:51 INFO  RequestLoggingFilter:26 - Request End Time : 1717908891872
+2024-06-09 10:24:51 INFO  RequestLoggingFilter:28 - ----------- Request Duration: -------------1717908891872 ms
+2024-06-09 10:24:56 INFO  RequestLoggingFilter:20 - Request Start Time : 1717908896965
+2024-06-09 10:24:56 INFO  AuthenticationController:39 - LoginUser Request : JwtRequestDTO(username=admin, password=password)
+2024-06-09 10:24:57 INFO  RequestLoggingFilter:26 - Request End Time : 1717908897081
+2024-06-09 10:24:57 INFO  RequestLoggingFilter:28 - ----------- Request Duration: -------------1717908897081 ms
+2024-06-09 10:25:01 INFO  RequestLoggingFilter:20 - Request Start Time : 1717908901643
+2024-06-09 10:25:01 INFO  AuthenticationController:39 - LoginUser Request : JwtRequestDTO(username=admin, password=password)
+2024-06-09 10:25:01 INFO  RequestLoggingFilter:26 - Request End Time : 1717908901769
+2024-06-09 10:25:01 INFO  RequestLoggingFilter:28 - ----------- Request Duration: -------------1717908901769 ms
+2024-06-09 10:25:06 INFO  RequestLoggingFilter:20 - Request Start Time : 1717908906193
+2024-06-09 10:25:06 INFO  AuthenticationController:39 - LoginUser Request : JwtRequestDTO(username=admin, password=password)
+2024-06-09 10:25:06 INFO  RequestLoggingFilter:26 - Request End Time : 1717908906330
+2024-06-09 10:25:06 INFO  RequestLoggingFilter:28 - ----------- Request Duration: -------------1717908906330 ms
+2024-06-09 10:26:46 INFO  log:170 - Logging initialized @1246ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-09 10:26:46 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 11.0.18+9-LTS-195
+2024-06-09 10:26:49 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@261d8190{/,null,AVAILABLE}
+2024-06-09 10:26:49 INFO  AbstractConnector:331 - Started ServerConnector@63021689{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-09 10:26:49 INFO  Server:415 - Started @4723ms
+2024-06-09 10:26:50 INFO  RequestLoggingFilter:20 - Request Start Time : 1717909010135
+2024-06-09 10:26:50 INFO  AuthenticationController:39 - LoginUser Request : JwtRequestDTO(username=admin, password=password)
+2024-06-09 10:26:55 INFO  RequestLoggingFilter:26 - Request End Time : 1717909015424
+2024-06-09 10:26:55 INFO  RequestLoggingFilter:28 - ----------- Request Duration: -------------1717909015424 ms
+2024-06-09 10:30:42 INFO  RequestLoggingFilter:20 - Request Start Time : 1717909242635
+2024-06-09 10:30:42 INFO  AuthenticationController:39 - LoginUser Request : JwtRequestDTO(username=admin, password=password)
+2024-06-09 10:30:42 INFO  RequestLoggingFilter:26 - Request End Time : 1717909242823
+2024-06-09 10:30:42 INFO  RequestLoggingFilter:28 - ----------- Request Duration: -------------1717909242823 ms
+2024-06-09 10:31:30 INFO  log:170 - Logging initialized @1357ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-09 10:31:30 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 11.0.18+9-LTS-195
+2024-06-09 10:31:32 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@261d8190{/,null,AVAILABLE}
+2024-06-09 10:31:32 INFO  AbstractConnector:331 - Started ServerConnector@63021689{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-09 10:31:32 INFO  Server:415 - Started @3753ms
+2024-06-09 10:31:38 INFO  RequestLoggingFilter:20 - Request Start Time : 1717909298616
+2024-06-09 10:31:38 INFO  AuthenticationController:39 - LoginUser Request : JwtRequestDTO(username=admin, password=password)
+2024-06-09 10:31:42 INFO  RequestLoggingFilter:26 - Request End Time : 1717909302680
+2024-06-09 10:31:42 INFO  RequestLoggingFilter:28 - ----------- Request Duration: -------------1717909302680 ms
+2024-06-09 10:31:45 INFO  RequestLoggingFilter:20 - Request Start Time : 1717909305442
+2024-06-09 10:31:45 INFO  AuthenticationController:39 - LoginUser Request : JwtRequestDTO(username=admin, password=password)
+2024-06-09 10:31:45 INFO  RequestLoggingFilter:26 - Request End Time : 1717909305574
+2024-06-09 10:31:45 INFO  RequestLoggingFilter:28 - ----------- Request Duration: -------------1717909305574 ms
+2024-06-09 10:31:47 INFO  RequestLoggingFilter:20 - Request Start Time : 1717909307252
+2024-06-09 10:31:47 INFO  AuthenticationController:39 - LoginUser Request : JwtRequestDTO(username=admin, password=password)
+2024-06-09 10:31:47 INFO  RequestLoggingFilter:26 - Request End Time : 1717909307398
+2024-06-09 10:31:47 INFO  RequestLoggingFilter:28 - ----------- Request Duration: -------------1717909307398 ms
+2024-06-09 10:31:48 INFO  RequestLoggingFilter:20 - Request Start Time : 1717909308035
+2024-06-09 10:31:48 INFO  AuthenticationController:39 - LoginUser Request : JwtRequestDTO(username=admin, password=password)
+2024-06-09 10:31:48 INFO  RequestLoggingFilter:26 - Request End Time : 1717909308165
+2024-06-09 10:31:48 INFO  RequestLoggingFilter:28 - ----------- Request Duration: -------------1717909308165 ms
+2024-06-09 10:31:48 INFO  RequestLoggingFilter:20 - Request Start Time : 1717909308941
+2024-06-09 10:31:48 INFO  AuthenticationController:39 - LoginUser Request : JwtRequestDTO(username=admin, password=password)
+2024-06-09 10:31:49 INFO  RequestLoggingFilter:26 - Request End Time : 1717909309092
+2024-06-09 10:31:49 INFO  RequestLoggingFilter:28 - ----------- Request Duration: -------------1717909309092 ms
+2024-06-09 10:31:50 INFO  RequestLoggingFilter:20 - Request Start Time : 1717909310003
+2024-06-09 10:31:50 INFO  AuthenticationController:39 - LoginUser Request : JwtRequestDTO(username=admin, password=password)
+2024-06-09 10:31:50 INFO  RequestLoggingFilter:26 - Request End Time : 1717909310123
+2024-06-09 10:31:50 INFO  RequestLoggingFilter:28 - ----------- Request Duration: -------------1717909310123 ms
+2024-06-09 10:31:50 INFO  RequestLoggingFilter:20 - Request Start Time : 1717909310734
+2024-06-09 10:31:50 INFO  AuthenticationController:39 - LoginUser Request : JwtRequestDTO(username=admin, password=password)
+2024-06-09 10:31:50 INFO  RequestLoggingFilter:26 - Request End Time : 1717909310896
+2024-06-09 10:31:50 INFO  RequestLoggingFilter:28 - ----------- Request Duration: -------------1717909310896 ms
+2024-06-09 11:07:16 INFO  log:170 - Logging initialized @1385ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-09 11:07:17 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 11.0.18+9-LTS-195
+2024-06-09 11:07:20 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@261d8190{/,null,AVAILABLE}
+2024-06-09 11:07:20 INFO  AbstractConnector:331 - Started ServerConnector@63021689{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-09 11:07:20 INFO  Server:415 - Started @4605ms
+2024-06-09 11:07:46 INFO  log:170 - Logging initialized @1432ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-09 11:07:47 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 11.0.18+9-LTS-195
+2024-06-09 11:07:50 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@261d8190{/,null,AVAILABLE}
+2024-06-09 11:07:50 INFO  AbstractConnector:331 - Started ServerConnector@63021689{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-09 11:07:50 INFO  Server:415 - Started @5106ms
+2024-06-09 11:08:20 ERROR GlobalExceptionMapper:23 - ---------------- Handle Global Exception ----------------
+2024-06-09 11:08:20 INFO  RequestLoggingFilter:26 - Request End Time : 1717911500066
+2024-06-09 11:08:20 INFO  RequestLoggingFilter:28 - ----------- Request Duration: -------------1717911500066 ms
+2024-06-09 11:08:54 INFO  log:170 - Logging initialized @1407ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-09 11:08:55 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 11.0.18+9-LTS-195
+2024-06-09 11:08:58 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@452c8a40{/,null,AVAILABLE}
+2024-06-09 11:08:58 INFO  AbstractConnector:331 - Started ServerConnector@63021689{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-09 11:08:58 INFO  Server:415 - Started @5024ms
+2024-06-09 11:08:58 INFO  RequestLoggingFilter:20 - Request Start Time : 1717911538842
+2024-06-09 11:09:03 INFO  RequestLoggingFilter:26 - Request End Time : 1717911543448
+2024-06-09 11:09:03 INFO  RequestLoggingFilter:28 - ----------- Request Duration: -------------1717911543448 ms
+2024-06-09 11:19:06 INFO  log:170 - Logging initialized @1305ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-09 11:19:07 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 11.0.18+9-LTS-195
+2024-06-09 11:19:11 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@452c8a40{/,null,AVAILABLE}
+2024-06-09 11:19:11 INFO  AbstractConnector:331 - Started ServerConnector@63021689{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-09 11:19:11 INFO  Server:415 - Started @5797ms
+2024-06-09 11:19:12 INFO  RequestLoggingFilter:20 - Request Start Time : 1717912152368
+2024-06-09 11:19:12 INFO  EmployeeController:37 - Received search request with parameters - pageNumber : 1, pageSize : 10 ,sortedField : name, sortedDirection :asc, name : null, department : null, startDateStr : null, endDateStr : null
+2024-06-09 11:19:15 INFO  RequestLoggingFilter:26 - Request End Time : 1717912155972
+2024-06-09 11:19:15 INFO  RequestLoggingFilter:28 - ----------- Request Duration: -------------1717912155972 ms
+2024-06-09 11:19:54 INFO  log:170 - Logging initialized @1353ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-09 11:19:55 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 11.0.18+9-LTS-195
+2024-06-09 11:19:57 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@452c8a40{/,null,AVAILABLE}
+2024-06-09 11:19:57 INFO  AbstractConnector:331 - Started ServerConnector@63021689{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-09 11:19:57 INFO  Server:415 - Started @4254ms
+2024-06-09 11:20:01 INFO  RequestLoggingFilter:20 - Request Start Time : 1717912201064
+2024-06-09 11:20:01 INFO  EmployeeController:37 - Received search request with parameters - pageNumber : 1, pageSize : 10 ,sortedField : name, sortedDirection :asc, name : null, department : null, startDateStr : null, endDateStr : null
+2024-06-09 11:20:05 INFO  RequestLoggingFilter:26 - Request End Time : 1717912205249
+2024-06-09 11:20:05 INFO  RequestLoggingFilter:28 - ----------- Request Duration: -------------1717912205249 ms
+2024-06-09 11:21:25 INFO  log:170 - Logging initialized @1159ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-09 11:21:26 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 11.0.18+9-LTS-195
+2024-06-09 11:21:28 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@452c8a40{/,null,AVAILABLE}
+2024-06-09 11:21:28 INFO  AbstractConnector:331 - Started ServerConnector@63021689{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-09 11:21:28 INFO  Server:415 - Started @4085ms
+2024-06-09 11:21:33 INFO  RequestLoggingFilter:26 - Request End Time : 1717912293024
+2024-06-09 11:21:33 INFO  RequestLoggingFilter:28 - ----------- Request Duration: -------------1717912293024 ms
+2024-06-09 12:21:39 INFO  log:170 - Logging initialized @2063ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-09 12:21:40 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 11.0.18+9-LTS-195
+2024-06-09 12:21:45 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@452c8a40{/,null,AVAILABLE}
+2024-06-09 12:21:45 INFO  AbstractConnector:331 - Started ServerConnector@63021689{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-09 12:21:45 INFO  Server:415 - Started @8142ms
+2024-06-09 12:21:48 INFO  RequestLoggingFilter:26 - Request End Time : 1717915908560
+2024-06-09 12:21:48 INFO  RequestLoggingFilter:28 - ----------- Request Duration: -------------1717915908560 ms
+2024-06-09 12:22:14 INFO  RequestLoggingFilter:26 - Request End Time : 1717915934567
+2024-06-09 12:22:14 INFO  RequestLoggingFilter:28 - ----------- Request Duration: -------------1717915934567 ms
+2024-06-09 12:22:16 INFO  RequestLoggingFilter:26 - Request End Time : 1717915936299
+2024-06-09 12:22:16 INFO  RequestLoggingFilter:28 - ----------- Request Duration: -------------1717915936299 ms
+2024-06-09 12:22:20 INFO  RequestLoggingFilter:20 - Request Start Time : 1717915940649
+2024-06-09 12:22:20 INFO  AuthenticationController:39 - LoginUser Request : JwtRequestDTO(username=admin, password=password)
+2024-06-09 12:22:25 INFO  RequestLoggingFilter:26 - Request End Time : 1717915945213
+2024-06-09 12:22:25 INFO  RequestLoggingFilter:28 - ----------- Request Duration: -------------1717915945213 ms
+2024-06-09 12:22:40 INFO  RequestLoggingFilter:20 - Request Start Time : 1717915960961
+2024-06-09 12:22:41 INFO  EmployeeController:39 - Received search request with parameters - pageNumber : 1, pageSize : 10 ,sortedField : name, sortedDirection :asc, name : null, department : null, startDateStr : null, endDateStr : null
+2024-06-09 12:22:41 INFO  RequestLoggingFilter:26 - Request End Time : 1717915961124
+2024-06-09 12:22:41 INFO  RequestLoggingFilter:28 - ----------- Request Duration: -------------1717915961124 ms
+2024-06-09 12:24:48 INFO  RequestLoggingFilter:20 - Request Start Time : 1717916088159
+2024-06-09 12:24:48 INFO  EmployeeController:39 - Received search request with parameters - pageNumber : 1, pageSize : 10 ,sortedField : name, sortedDirection :asc, name : null, department : null, startDateStr : null, endDateStr : null
+2024-06-09 12:24:48 INFO  RequestLoggingFilter:26 - Request End Time : 1717916088172
+2024-06-09 12:24:48 INFO  RequestLoggingFilter:28 - ----------- Request Duration: -------------1717916088172 ms
+2024-06-09 12:24:49 INFO  RequestLoggingFilter:20 - Request Start Time : 1717916089403
+2024-06-09 12:24:49 INFO  EmployeeController:39 - Received search request with parameters - pageNumber : 1, pageSize : 10 ,sortedField : name, sortedDirection :asc, name : null, department : null, startDateStr : null, endDateStr : null
+2024-06-09 12:24:49 INFO  RequestLoggingFilter:26 - Request End Time : 1717916089417
+2024-06-09 12:24:49 INFO  RequestLoggingFilter:28 - ----------- Request Duration: -------------1717916089417 ms
+2024-06-09 12:24:52 INFO  RequestLoggingFilter:26 - Request End Time : 1717916092245
+2024-06-09 12:24:52 INFO  RequestLoggingFilter:28 - ----------- Request Duration: -------------1717916092245 ms
+2024-06-09 12:24:55 INFO  RequestLoggingFilter:20 - Request Start Time : 1717916095153
+2024-06-09 12:24:55 INFO  EmployeeController:39 - Received search request with parameters - pageNumber : 1, pageSize : 10 ,sortedField : name, sortedDirection :asc, name : null, department : null, startDateStr : null, endDateStr : null
+2024-06-09 12:24:55 INFO  RequestLoggingFilter:26 - Request End Time : 1717916095166
+2024-06-09 12:24:55 INFO  RequestLoggingFilter:28 - ----------- Request Duration: -------------1717916095166 ms
+2024-06-09 13:29:32 INFO  log:170 - Logging initialized @1282ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-09 13:29:33 WARN  Reflections:179 - given scan urls are empty. set urls in the configuration
+2024-06-09 13:29:33 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 11.0.18+9-LTS-195
+2024-06-09 13:29:35 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@4b1c0397{/,null,AVAILABLE}
+2024-06-09 13:29:35 INFO  AbstractConnector:331 - Started ServerConnector@10e41621{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-09 13:29:35 INFO  Server:415 - Started @3957ms
+2024-06-09 13:29:43 ERROR GlobalExceptionMapper:23 - ---------------- Handle Global Exception ----------------
+2024-06-09 13:29:43 INFO  RequestLoggingFilter:26 - Request End Time : 1717919983630
+2024-06-09 13:29:43 INFO  RequestLoggingFilter:28 - ----------- Request Duration: -------------1717919983630 ms
+2024-06-09 13:29:43 ERROR GlobalExceptionMapper:23 - ---------------- Handle Global Exception ----------------
+2024-06-09 13:29:43 INFO  RequestLoggingFilter:26 - Request End Time : 1717919983924
+2024-06-09 13:29:43 INFO  RequestLoggingFilter:28 - ----------- Request Duration: -------------1717919983924 ms
+2024-06-09 13:29:50 ERROR GlobalExceptionMapper:23 - ---------------- Handle Global Exception ----------------
+2024-06-09 13:29:50 INFO  RequestLoggingFilter:26 - Request End Time : 1717919990491
+2024-06-09 13:29:50 INFO  RequestLoggingFilter:28 - ----------- Request Duration: -------------1717919990491 ms
+2024-06-09 13:29:50 ERROR GlobalExceptionMapper:23 - ---------------- Handle Global Exception ----------------
+2024-06-09 13:29:50 INFO  RequestLoggingFilter:26 - Request End Time : 1717919990532
+2024-06-09 13:29:50 INFO  RequestLoggingFilter:28 - ----------- Request Duration: -------------1717919990532 ms
+2024-06-09 13:29:52 ERROR GlobalExceptionMapper:23 - ---------------- Handle Global Exception ----------------
+2024-06-09 13:29:52 INFO  RequestLoggingFilter:26 - Request End Time : 1717919992752
+2024-06-09 13:29:52 INFO  RequestLoggingFilter:28 - ----------- Request Duration: -------------1717919992752 ms
+2024-06-09 13:29:52 ERROR GlobalExceptionMapper:23 - ---------------- Handle Global Exception ----------------
+2024-06-09 13:29:52 INFO  RequestLoggingFilter:26 - Request End Time : 1717919992806
+2024-06-09 13:29:52 INFO  RequestLoggingFilter:28 - ----------- Request Duration: -------------1717919992806 ms
+2024-06-09 19:00:21 INFO  log:170 - Logging initialized @1575ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-09 19:00:22 INFO  Server:375 - jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 11.0.18+9-LTS-195
+2024-06-09 19:00:26 INFO  ContextHandler:915 - Started o.e.j.s.ServletContextHandler@5b56b654{/,null,AVAILABLE}
+2024-06-09 19:00:26 INFO  AbstractConnector:331 - Started ServerConnector@470f1802{HTTP/1.1, (http/1.1)}{localhost:9999}
+2024-06-09 19:00:26 INFO  Server:415 - Started @6638ms
+2024-06-09 19:00:30 INFO  RequestLoggingFilter:26 - Request End Time : 1717939830116
+2024-06-09 19:00:30 INFO  RequestLoggingFilter:28 - ----------- Request Duration: -------------1717939830116 ms
+2024-06-09 19:00:40 INFO  RequestLoggingFilter:20 - Request Start Time : 1717939840154
+2024-06-09 19:00:40 INFO  AuthenticationController:39 - LoginUser Request : JwtRequestDTO(username=admin, password=password)
+2024-06-09 19:00:44 INFO  RequestLoggingFilter:26 - Request End Time : 1717939844504
+2024-06-09 19:00:44 INFO  RequestLoggingFilter:28 - ----------- Request Duration: -------------1717939844504 ms
+2024-06-09 19:00:57 INFO  RequestLoggingFilter:20 - Request Start Time : 1717939857824
+2024-06-09 19:00:57 INFO  EmployeeController:39 - Received search request with parameters - pageNumber : 1, pageSize : 10 ,sortedField : name, sortedDirection :asc, name : null, department : null, startDateStr : null, endDateStr : null
+2024-06-09 19:00:58 INFO  RequestLoggingFilter:26 - Request End Time : 1717939858038
+2024-06-09 19:00:58 INFO  RequestLoggingFilter:28 - ----------- Request Duration: -------------1717939858038 ms
